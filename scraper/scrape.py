@@ -23,6 +23,7 @@ import re
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlsplit, urlunsplit
 
 from playwright.sync_api import Locator, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
@@ -54,9 +55,19 @@ def scrape_day(day: date) -> dict:
 
             result = parse_roster_rows(rows.all())
             if not result:
+                page_url = urlunsplit((*urlsplit(page.url)[:3], "", ""))
+                page_title = page.title()
+                player_links = page.locator('a[href*="/hockey/players/"]').count()
+                print(
+                    "Yahoo page diagnostics: "
+                    f"url={page_url!r}, title={page_title!r}, "
+                    f"roster_rows={rows.count()}, player_links={player_links}"
+                )
                 raise RuntimeError(
-                    "Yahoo's roster table loaded, but no players were recognized. "
-                    "Run debug_dump.py to inspect the page markup."
+                    "Yahoo's page loaded, but no players were recognized. "
+                    "Check the diagnostics above: a sign-in/consent page means "
+                    "the saved session was not accepted; otherwise the roster "
+                    "markup may have changed. Run debug_dump.py locally to inspect it."
                 )
             return result
         finally:
