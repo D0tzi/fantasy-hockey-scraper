@@ -1,0 +1,112 @@
+{
+  "2026-10-20": {
+    "Aleksander Barkov": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false
+    },
+    "Charlie McAvoy": {
+      "game_info": "@ DAL",
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Cole Caufield": {
+      "game_info": "vs SJ",
+      "points": 0.0,
+      "slot": "F",
+      "started": true
+    },
+    "Joel Eriksson Ek": {
+      "game_info": "@ EDM",
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Lane Hutson": {
+      "game_info": "vs SJ",
+      "points": 4.9,
+      "slot": "D",
+      "started": true
+    },
+    "Linus Ullmark": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Lukas Dostal": {
+      "game_info": "@ NYI",
+      "points": -3.0,
+      "slot": "G",
+      "started": true
+    },
+    "Mathew Barzal": {
+      "game_info": "vs ANA",
+      "points": 0.0,
+      "slot": "IR",
+      "started": false
+    },
+    "Nathan MacKinnon": {
+      "game_info": "@ NJ",
+      "points": 1.0,
+      "slot": "F",
+      "started": true
+    },
+    "Nick Schmaltz": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Pyotr Kochetkov": {
+      "game_info": "@ VAN",
+      "points": null,
+      "slot": "G",
+      "started": true
+    },
+    "Quinn Hughes": {
+      "game_info": "@ EDM",
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Sam Reinhart": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Shayne Gostisbehere": {
+      "game_info": "@ VAN",
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Tim Stutzle": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Will Smith": {
+      "game_info": "@ MTL",
+      "points": 0.0,
+      "slot": "F",
+      "started": true
+    },
+    "William Nylander": {
+      "game_info": "@ CBJ",
+      "points": 6.0,
+      "slot": "F",
+      "started": true
+    },
+    "Zach Hyman": {
+      "game_info": "vs MIN",
+      "points": null,
+      "slot": "F",
+      "started": true
+    }
+  }
+}
