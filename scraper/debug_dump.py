@@ -26,7 +26,7 @@ def main() -> None:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(storage_state=STORAGE_STATE_PATH)
         page = context.new_page()
-        page.goto(url, wait_until="networkidle")
+        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
         page.wait_for_timeout(2000)
 
         Path("debug_page.html").write_text(page.content())

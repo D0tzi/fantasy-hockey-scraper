@@ -24,7 +24,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
-from playwright.sync_api import Locator, sync_playwright
+from playwright.sync_api import Locator, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 from config import BENCH_SLOTS, KNOWN_SLOTS, SEASON_START, STORAGE_STATE_PATH, TEAM_URL
 
@@ -38,14 +38,29 @@ def scrape_day(day: date) -> dict:
     url = f"{TEAM_URL}?date={day.isoformat()}"
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(storage_state=STORAGE_STATE_PATH)
-        page = context.new_page()
-        page.goto(url, wait_until="networkidle")
-        page.wait_for_timeout(2000)  # let late client-side rendering settle
+        try:
+            context = browser.new_context(storage_state=STORAGE_STATE_PATH)
+            page = context.new_page()
+            page.goto(url, wait_until="domcontentloaded", timeout=60_000)
 
-        result = parse_roster_rows(page.locator("table tbody tr").all())
-        browser.close()
-        return result
+            rows = page.locator("table tbody tr")
+            try:
+                rows.first.wait_for(state="attached", timeout=30_000)
+            except PlaywrightTimeoutError as exc:
+                raise RuntimeError(
+                    "Yahoo's roster table did not load. Check that the saved "
+                    "Yahoo session is still valid and the team URL is correct."
+                ) from exc
+
+            result = parse_roster_rows(rows.all())
+            if not result:
+                raise RuntimeError(
+                    "Yahoo's roster table loaded, but no players were recognized. "
+                    "Run debug_dump.py to inspect the page markup."
+                )
+            return result
+        finally:
+            browser.close()
 
 
 def parse_roster_rows(rows: list[Locator]) -> dict:
