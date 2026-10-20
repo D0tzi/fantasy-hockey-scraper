@@ -21,4 +21,4 @@ BENCH_SLOTS = {"BN", "IR", "IR+", "IR-LT", "NA"}
 
 # All slot/position abbreviations Yahoo uses for NHL rosters (used to find
 # the slot token in a scraped roster row).
-KNOWN_SLOTS = {"C", "LW", "RW", "D", "G", "UTIL", "BN", "IR", "IR+", "IR-LT", "NA"}
+KNOWN_SLOTS = {"C", "LW", "RW", "D", "G", "F", "UTIL", "BN", "IR", "IR+", "IR-LT", "NA"}

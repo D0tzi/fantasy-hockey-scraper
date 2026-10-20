@@ -9,11 +9,10 @@ Used both by the GitHub Action (scheduled hourly) and locally for testing:
 
 NOTE ON SELECTORS: Yahoo's fantasy pages are not publicly inspectable
 without a logged-in session, so the parsing below is a best-effort based on
-the well-established Yahoo Fantasy Sports page conventions (a roster table
-with one row per player, a player link to /hockey/players/<id>, a slot
-abbreviation like C/LW/RW/D/G/BN/IR, and a trailing numeric points column).
-If scrape_day() isn't finding your players, run debug_dump.py to inspect
-the real page and adjust parse_roster_rows() accordingly.
+Yahoo's roster markup: player links use /nhl/players/<id>, assigned slots
+are in td.edit, and fantasy points are in td.pts. If scrape_day() isn't
+finding your players, run debug_dump.py to inspect the real page and adjust
+parse_roster_rows() accordingly.
 """
 
 from __future__ import annotations
@@ -32,6 +31,7 @@ from config import BENCH_SLOTS, KNOWN_SLOTS, SEASON_START, STORAGE_STATE_PATH, T
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 HISTORY_PATH = DOCS_DIR / "history.json"
 PAYLOAD_PATH = DOCS_DIR / "payload.json"
+PLAYER_LINK_SELECTOR = 'a[href*="/nhl/players/"]'
 
 
 def scrape_day(day: date) -> dict:
@@ -57,7 +57,7 @@ def scrape_day(day: date) -> dict:
             if not result:
                 page_url = urlunsplit((*urlsplit(page.url)[:3], "", ""))
                 page_title = page.title()
-                player_links = page.locator('a[href*="/hockey/players/"]').count()
+                player_links = page.locator(PLAYER_LINK_SELECTOR).count()
                 print(
                     "Yahoo page diagnostics: "
                     f"url={page_url!r}, title={page_title!r}, "
@@ -81,7 +81,7 @@ def parse_roster_rows(rows: list[Locator]) -> dict:
         if not row_text:
             continue
 
-        name_link = row.locator('a[href*="/hockey/players/"]').first
+        name_link = row.locator(PLAYER_LINK_SELECTOR).first
         if name_link.count() == 0:
             continue
         name = name_link.inner_text().strip()
@@ -89,15 +89,32 @@ def parse_roster_rows(rows: list[Locator]) -> dict:
             continue
 
         tokens = [t.strip() for t in row_text.split("\n") if t.strip()]
-        slot = next((t for t in tokens if t.upper() in KNOWN_SLOTS), None)
+        slot_cell = row.locator("td.edit").first
+        slot = slot_cell.inner_text().strip().upper() if slot_cell.count() else None
+        if slot not in KNOWN_SLOTS:
+            slot = next((t.upper() for t in tokens if t.upper() in KNOWN_SLOTS), None)
+
+        points_cell = row.locator("td.pts").first
+        points = (
+            _parse_points(points_cell.inner_text())
+            if points_cell.count()
+            else _extract_points(tokens)
+        )
 
         result[name] = {
             "slot": slot,
             "started": slot is not None and slot.upper() not in BENCH_SLOTS,
-            "points": _extract_points(tokens),
+            "points": points,
             "game_info": _extract_game_info(row_text),
         }
     return result
+
+
+def _parse_points(value: str) -> Optional[float]:
+    value = value.strip()
+    if re.fullmatch(r"-?\d+(\.\d+)?", value):
+        return float(value)
+    return None
 
 
 def _extract_points(tokens: list[str]) -> Optional[float]:
