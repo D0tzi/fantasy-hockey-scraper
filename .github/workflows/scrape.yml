@@ -1,0 +1,47 @@
+name: Scrape Yahoo Fantasy Hockey
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Restore Yahoo session
+        working-directory: scraper
+        env:
+          YAHOO_STORAGE_STATE: ${{ secrets.YAHOO_STORAGE_STATE }}
+        run: echo "$YAHOO_STORAGE_STATE" > storage_state.json
+
+      - name: Scrape roster and build payload
+        working-directory: scraper
+        env:
+          YAHOO_LEAGUE_ID: ${{ vars.YAHOO_LEAGUE_ID }}
+          YAHOO_TEAM_ID: ${{ vars.YAHOO_TEAM_ID }}
+          YAHOO_SEASON_START: ${{ vars.YAHOO_SEASON_START }}
+        run: python scrape.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "fantasy-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/payload.json docs/history.json
+          git diff --cached --quiet || git commit -m "Update fantasy data [skip ci]"
+          git push

@@ -1,0 +1,3 @@
+Placeholder so the docs/ folder exists before the first Action run. Once
+the workflow runs, payload.json and history.json will appear here, and
+this is the folder GitHub Pages should serve.
