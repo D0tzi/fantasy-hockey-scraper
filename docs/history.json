@@ -15,7 +15,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "@ DAL 2ND 20:00",
+      "game_info": "@ DAL 2ND 7:55",
       "points": 2.0,
       "slot": "D",
       "started": true,
@@ -29,8 +29,8 @@
       }
     },
     "Cole Caufield": {
-      "game_info": "vs SJ 2ND 0:20",
-      "points": 11.8,
+      "game_info": "vs SJ 3RD 10:27",
+      "points": 12.7,
       "slot": "F",
       "started": true,
       "stats": {
@@ -39,35 +39,35 @@
         "goals": 1.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 2.0
+        "shots": 3.0
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ EDM 9:00 pm",
-      "points": null,
+      "game_info": "@ EDM 1ST 11:01",
+      "points": 7.8,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 2.0
       }
     },
     "Lane Hutson": {
-      "game_info": "vs SJ 2ND 0:20",
-      "points": 6.4,
+      "game_info": "vs SJ 3RD 10:27",
+      "points": 8.3,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 1.0,
-        "blocks": 1.0,
+        "blocks": 2.0,
         "goals": 0.0,
         "hits": 1.0,
         "ppp": 0.0,
-        "shots": 1.0
+        "shots": 2.0
       }
     },
     "Linus Ullmark": {
@@ -81,17 +81,17 @@
       }
     },
     "Lukas Dostal": {
-      "game_info": "@ NYI 3RD 15:03",
-      "points": 3.0,
+      "game_info": "@ NYI 3RD 4:40",
+      "points": 4.2,
       "slot": "G",
       "started": true,
       "stats": {
         "goals_against": 3.0,
-        "saves": 20.0
+        "saves": 22.0
       }
     },
     "Mathew Barzal": {
-      "game_info": "vs ANA 3RD 15:03",
+      "game_info": "vs ANA 3RD 4:40",
       "points": 0.0,
       "slot": "IR",
       "started": false,
@@ -105,8 +105,8 @@
       }
     },
     "Nathan MacKinnon": {
-      "game_info": "@ NJ 3RD 15:21",
-      "points": 3.4,
+      "game_info": "@ NJ 3RD 6:11",
+      "points": 4.3,
       "slot": "F",
       "started": true,
       "stats": {
@@ -115,7 +115,7 @@
         "goals": 0.0,
         "hits": 3.0,
         "ppp": 0.0,
-        "shots": 1.0
+        "shots": 2.0
       }
     },
     "Nick Schmaltz": {
@@ -143,17 +143,17 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ EDM 9:00 pm",
-      "points": null,
+      "game_info": "@ EDM 1ST 11:01",
+      "points": 1.8,
       "slot": "D",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 2.0
       }
     },
     "Sam Reinhart": {
@@ -199,8 +199,8 @@
       }
     },
     "Will Smith": {
-      "game_info": "@ MTL 2ND 0:20",
-      "points": 0.0,
+      "game_info": "@ MTL 3RD 10:27",
+      "points": 0.9,
       "slot": "F",
       "started": true,
       "stats": {
@@ -209,11 +209,11 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 0.0
+        "shots": 1.0
       }
     },
     "William Nylander": {
-      "game_info": "@ CBJ End 2ND",
+      "game_info": "@ CBJ 3RD 9:54",
       "points": 13.8,
       "slot": "F",
       "started": true,
@@ -227,17 +227,17 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs MIN 9:00 pm",
-      "points": null,
+      "game_info": "vs MIN 1ST 11:01",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     }
   },
