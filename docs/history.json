@@ -243,7 +243,7 @@
   },
   "2026-10-21": {
     "Aleksander Barkov": {
-      "game_info": "@ OTT",
+      "game_info": "@ OTT 7:30 pm",
       "points": null,
       "slot": "IR",
       "started": false,
@@ -313,7 +313,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs FLA",
+      "game_info": "vs FLA 7:30 pm",
       "points": null,
       "slot": "G",
       "started": true,
@@ -399,7 +399,7 @@
       }
     },
     "Sam Reinhart": {
-      "game_info": "@ OTT",
+      "game_info": "@ OTT 7:30 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -427,7 +427,7 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs FLA",
+      "game_info": "vs FLA 7:30 pm",
       "points": null,
       "slot": "F",
       "started": true,
