@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T01:24:43.812145Z",
-  "updated_at_local": "2026-10-20T19:24-06:00",
+  "updated_at": "2026-10-21T01:44:26.750597Z",
+  "updated_at_local": "2026-10-20T19:44-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -20,7 +20,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ CBJ 3RD 9:54"
+        "game_info": "@ CBJ"
       }
     },
     {
@@ -40,47 +40,47 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ MTL 3RD 10:27"
+        "game_info": "@ MTL OT 5:00"
       }
     },
     {
       "name": "Nathan MacKinnon",
       "position": "F",
-      "week_points": 4.3,
-      "season_points": 4.3,
+      "week_points": 7.0,
+      "season_points": 7.0,
       "today": {
         "started": true,
-        "points": 4.3,
+        "points": 7.0,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 2.0,
+          "shots": 5.0,
           "hits": 3.0,
           "blocks": 1.0
         },
         "slot": "F",
-        "game_info": "@ NJ 3RD 6:11"
+        "game_info": "@ NJ 3RD 0:04"
       }
     },
     {
       "name": "Joel Eriksson Ek",
       "position": "F",
-      "week_points": 7.8,
-      "season_points": 7.8,
+      "week_points": 9.6,
+      "season_points": 9.6,
       "today": {
         "started": true,
-        "points": 7.8,
+        "points": 9.6,
         "stats": {
           "goals": 1.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 2.0,
+          "shots": 4.0,
           "hits": 0.0,
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM 1ST 11:01"
+        "game_info": "@ EDM 1ST 2:45"
       }
     },
     {
@@ -100,7 +100,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs SJ 3RD 10:27"
+        "game_info": "vs SJ OT 5:00"
       }
     },
     {
@@ -120,7 +120,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs MIN 1ST 11:01"
+        "game_info": "vs MIN 1ST 2:45"
       }
     },
     {
@@ -160,7 +160,7 @@
           "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ EDM 1ST 11:01"
+        "game_info": "@ EDM 1ST 2:45"
       }
     },
     {
@@ -180,7 +180,7 @@
           "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "@ DAL 2ND 7:55"
+        "game_info": "@ DAL End 2ND"
       }
     },
     {
@@ -200,7 +200,7 @@
           "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "vs SJ 3RD 10:27"
+        "game_info": "vs SJ OT 5:00"
       }
     },
     {
@@ -300,7 +300,7 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "vs ANA 3RD 4:40"
+        "game_info": "vs ANA"
       }
     },
     {
@@ -316,7 +316,7 @@
           "goals_against": 3.0
         },
         "slot": "G",
-        "game_info": "@ NYI 3RD 4:40"
+        "game_info": "@ NYI"
       }
     },
     {
