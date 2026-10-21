@@ -4,109 +4,241 @@
       "game_info": null,
       "points": null,
       "slot": "IR",
-      "started": false
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Charlie McAvoy": {
       "game_info": "@ DAL",
-      "points": null,
+      "points": 2.0,
       "slot": "D",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 2.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
+      }
     },
     "Cole Caufield": {
       "game_info": "vs SJ",
-      "points": 0.0,
+      "points": 10.9,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 1.0,
+        "blocks": 0.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 1.0
+      }
     },
     "Joel Eriksson Ek": {
       "game_info": "@ EDM",
       "points": null,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Lane Hutson": {
       "game_info": "vs SJ",
-      "points": 4.9,
+      "points": 6.4,
       "slot": "D",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 1.0,
+        "blocks": 1.0,
+        "goals": 0.0,
+        "hits": 1.0,
+        "ppp": 0.0,
+        "shots": 1.0
+      }
     },
     "Linus Ullmark": {
       "game_info": null,
       "points": null,
       "slot": "BN",
-      "started": false
+      "started": false,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
     },
     "Lukas Dostal": {
       "game_info": "@ NYI",
-      "points": -3.0,
+      "points": 1.2,
       "slot": "G",
-      "started": true
+      "started": true,
+      "stats": {
+        "goals_against": 3.0,
+        "saves": 17.0
+      }
     },
     "Mathew Barzal": {
       "game_info": "vs ANA",
       "points": 0.0,
       "slot": "IR",
-      "started": false
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Nathan MacKinnon": {
       "game_info": "@ NJ",
-      "points": 1.0,
+      "points": 2.5,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 0.0,
+        "hits": 3.0,
+        "ppp": 0.0,
+        "shots": 0.0
+      }
     },
     "Nick Schmaltz": {
       "game_info": null,
       "points": null,
       "slot": "BN",
-      "started": false
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Pyotr Kochetkov": {
       "game_info": "@ VAN",
       "points": null,
       "slot": "G",
-      "started": true
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
     },
     "Quinn Hughes": {
       "game_info": "@ EDM",
       "points": null,
       "slot": "D",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Sam Reinhart": {
       "game_info": null,
       "points": null,
       "slot": "BN",
-      "started": false
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Shayne Gostisbehere": {
       "game_info": "@ VAN",
       "points": null,
       "slot": "D",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Tim Stutzle": {
       "game_info": null,
       "points": null,
       "slot": "BN",
-      "started": false
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     },
     "Will Smith": {
       "game_info": "@ MTL",
       "points": 0.0,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
+      }
     },
     "William Nylander": {
       "game_info": "@ CBJ",
-      "points": 6.0,
+      "points": 13.8,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": 1.0,
+        "blocks": 0.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 1.0,
+        "shots": 2.0
+      }
     },
     "Zach Hyman": {
       "game_info": "vs MIN",
       "points": null,
       "slot": "F",
-      "started": true
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
     }
   },
   "2026-10-21": {
