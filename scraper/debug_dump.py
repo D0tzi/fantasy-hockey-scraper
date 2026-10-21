@@ -10,16 +10,20 @@ players correctly.
 from __future__ import annotations
 
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-from config import STORAGE_STATE_PATH, TEAM_URL
+from config import STORAGE_STATE_PATH, TEAM_URL, YAHOO_TIMEZONE
 
 
 def main() -> None:
-    day = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
+    day = (
+        date.fromisoformat(sys.argv[1])
+        if len(sys.argv) > 1
+        else datetime.now(YAHOO_TIMEZONE).date()
+    )
     url = f"{TEAM_URL}?date={day.isoformat()}"
 
     with sync_playwright() as p:

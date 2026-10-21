@@ -26,7 +26,7 @@ from urllib.parse import urlsplit, urlunsplit
 
 from playwright.sync_api import Locator, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
-from config import BENCH_SLOTS, KNOWN_SLOTS, SEASON_START, STORAGE_STATE_PATH, TEAM_URL
+from config import BENCH_SLOTS, KNOWN_SLOTS, SEASON_START, STORAGE_STATE_PATH, TEAM_URL, YAHOO_TIMEZONE
 
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 HISTORY_PATH = DOCS_DIR / "history.json"
@@ -232,7 +232,7 @@ def build_payload(history: dict, today: date) -> dict:
 
 
 def main() -> None:
-    today = date.today()
+    today = datetime.now(YAHOO_TIMEZONE).date()
     history = load_history()
     history[today.isoformat()] = scrape_day(today)
     save_history(history)

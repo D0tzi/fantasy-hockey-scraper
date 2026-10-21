@@ -13,9 +13,9 @@ Run it once, review docs/history.json, then commit + push it yourself.
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
-from config import SEASON_START
+from config import SEASON_START, YAHOO_TIMEZONE
 from scrape import load_history, save_history, scrape_day
 
 
@@ -25,7 +25,7 @@ def main() -> None:
         return
 
     start = date.fromisoformat(SEASON_START)
-    today = date.today()
+    today = datetime.now(YAHOO_TIMEZONE).date()
     history = load_history()
 
     day = start
