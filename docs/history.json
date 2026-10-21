@@ -15,15 +15,15 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "@ DAL 3RD 9:17",
-      "points": 2.0,
+      "game_info": "@ DAL",
+      "points": 5.0,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 0.0,
-        "blocks": 2.0,
+        "blocks": 4.0,
         "goals": 0.0,
-        "hits": 0.0,
+        "hits": 2.0,
         "ppp": 0.0,
         "shots": 0.0
       }
@@ -43,7 +43,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ EDM 2ND 13:59",
+      "game_info": "@ EDM End 2ND",
       "points": 11.4,
       "slot": "F",
       "started": true,
@@ -133,18 +133,18 @@
       }
     },
     "Pyotr Kochetkov": {
-      "game_info": "@ VAN 1ST 13:22",
-      "points": 0.6,
+      "game_info": "@ VAN End 1ST",
+      "points": -2.4,
       "slot": "G",
       "started": true,
       "stats": {
-        "goals_against": 0.0,
-        "saves": 1.0
+        "goals_against": 2.0,
+        "saves": 6.0
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ EDM 2ND 13:59",
-      "points": 1.8,
+      "game_info": "@ EDM End 2ND",
+      "points": 2.7,
       "slot": "D",
       "started": true,
       "stats": {
@@ -153,7 +153,7 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 2.0
+        "shots": 3.0
       }
     },
     "Sam Reinhart": {
@@ -171,7 +171,7 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ VAN 1ST 13:22",
+      "game_info": "@ VAN End 1ST",
       "points": 0.0,
       "slot": "D",
       "started": true,
@@ -227,7 +227,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs MIN 2ND 13:59",
+      "game_info": "vs MIN End 2ND",
       "points": 1.4,
       "slot": "F",
       "started": true,

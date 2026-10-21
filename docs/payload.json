@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T02:20:36.734053Z",
-  "updated_at_local": "2026-10-20T20:20-06:00",
+  "updated_at": "2026-10-21T02:59:48.145116Z",
+  "updated_at_local": "2026-10-20T20:59-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -80,7 +80,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM 2ND 13:59"
+        "game_info": "@ EDM End 2ND"
       }
     },
     {
@@ -120,7 +120,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs MIN 2ND 13:59"
+        "game_info": "vs MIN End 2ND"
       }
     },
     {
@@ -140,47 +140,47 @@
           "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ VAN 1ST 13:22"
+        "game_info": "@ VAN End 1ST"
       }
     },
     {
       "name": "Quinn Hughes",
       "position": "D",
-      "week_points": 1.8,
-      "season_points": 1.8,
+      "week_points": 2.7,
+      "season_points": 2.7,
       "today": {
         "started": true,
-        "points": 1.8,
+        "points": 2.7,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 2.0,
+          "shots": 3.0,
           "hits": 0.0,
           "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ EDM 2ND 13:59"
+        "game_info": "@ EDM End 2ND"
       }
     },
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 2.0,
-      "season_points": 2.0,
+      "week_points": 5.0,
+      "season_points": 5.0,
       "today": {
         "started": true,
-        "points": 2.0,
+        "points": 5.0,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 0.0,
-          "hits": 0.0,
-          "blocks": 2.0
+          "hits": 2.0,
+          "blocks": 4.0
         },
         "slot": "D",
-        "game_info": "@ DAL 3RD 9:17"
+        "game_info": "@ DAL"
       }
     },
     {
@@ -322,17 +322,17 @@
     {
       "name": "Pyotr Kochetkov",
       "position": "G",
-      "week_points": 0.6,
-      "season_points": 0.6,
+      "week_points": -2.4,
+      "season_points": -2.4,
       "today": {
         "started": true,
-        "points": 0.6,
+        "points": -2.4,
         "stats": {
-          "saves": 1.0,
-          "goals_against": 0.0
+          "saves": 6.0,
+          "goals_against": 2.0
         },
         "slot": "G",
-        "game_info": "@ VAN 1ST 13:22"
+        "game_info": "@ VAN End 1ST"
       }
     },
     {
