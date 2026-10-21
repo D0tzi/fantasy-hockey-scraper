@@ -1,5 +1,6 @@
 {
-  "updated_at": "2026-10-21T00:45:42.666301Z",
+  "updated_at": "2026-10-21T00:56:30.751108Z",
+  "updated_at_local": "2026-10-20T18:56-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -85,16 +86,16 @@
     {
       "name": "Cole Caufield",
       "position": "F",
-      "week_points": 10.9,
-      "season_points": 10.9,
+      "week_points": 11.8,
+      "season_points": 11.8,
       "today": {
         "started": true,
-        "points": 10.9,
+        "points": 11.8,
         "stats": {
           "goals": 1.0,
           "assists": 1.0,
           "ppp": 0.0,
-          "shots": 1.0,
+          "shots": 2.0,
           "hits": 0.0,
           "blocks": 0.0
         },
