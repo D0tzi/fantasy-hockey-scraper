@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T02:02:43.439766Z",
-  "updated_at_local": "2026-10-20T20:02-06:00",
+  "updated_at": "2026-10-21T02:20:36.734053Z",
+  "updated_at_local": "2026-10-20T20:20-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -80,7 +80,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM End 1ST"
+        "game_info": "@ EDM 2ND 13:59"
       }
     },
     {
@@ -120,7 +120,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs MIN End 1ST"
+        "game_info": "vs MIN 2ND 13:59"
       }
     },
     {
@@ -130,17 +130,17 @@
       "season_points": 0.0,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ VAN 10:00 pm"
+        "game_info": "@ VAN 1ST 13:22"
       }
     },
     {
@@ -160,7 +160,7 @@
           "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ EDM End 1ST"
+        "game_info": "@ EDM 2ND 13:59"
       }
     },
     {
@@ -180,7 +180,7 @@
           "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "@ DAL 3RD 19:10"
+        "game_info": "@ DAL 3RD 9:17"
       }
     },
     {
@@ -322,17 +322,17 @@
     {
       "name": "Pyotr Kochetkov",
       "position": "G",
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "week_points": 0.6,
+      "season_points": 0.6,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.6,
         "stats": {
-          "saves": null,
-          "goals_against": null
+          "saves": 1.0,
+          "goals_against": 0.0
         },
         "slot": "G",
-        "game_info": "@ VAN 10:00 pm"
+        "game_info": "@ VAN 1ST 13:22"
       }
     },
     {
