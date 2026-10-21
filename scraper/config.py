@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 LEAGUE_ID = os.environ["YAHOO_LEAGUE_ID"]
 TEAM_ID = os.environ["YAHOO_TEAM_ID"]
 STORAGE_STATE_PATH = os.environ.get("STORAGE_STATE_PATH", "storage_state.json")
-YAHOO_TIMEZONE = ZoneInfo(os.environ.get("YAHOO_TIMEZONE", "America/Denver"))
+YAHOO_TIMEZONE = ZoneInfo(os.environ.get("YAHOO_TIMEZONE", "America/Edmonton"))
 
 # First day of your league's season (YYYY-MM-DD). Used by backfill.py, and
 # to know how far back season totals should start. Leave blank to only
