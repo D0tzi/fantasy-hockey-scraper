@@ -100,14 +100,49 @@ def parse_roster_rows(rows: list[Locator]) -> dict:
             if points_cell.count()
             else _extract_points(tokens)
         )
+        stats = _extract_player_stats(row)
 
         result[name] = {
             "slot": slot,
             "started": slot is not None and slot.upper() not in BENCH_SLOTS,
             "points": points,
+            "stats": stats,
             "game_info": _extract_game_info(row_text),
         }
     return result
+
+
+def _extract_player_stats(row: Locator) -> dict:
+    table = row.locator("xpath=ancestor::table[1]")
+    header_rows = table.locator("thead tr")
+    if header_rows.count() == 0:
+        return {}
+
+    headers = [
+        header.inner_text().strip().upper()
+        for header in header_rows.last.locator("th, td").all()
+    ]
+    cells = row.locator("td").all()
+    values_by_header = {
+        header: _parse_points(cells[index].inner_text())
+        for index, header in enumerate(headers)
+        if index < len(cells)
+    }
+
+    if "SV" in values_by_header and "GA" in values_by_header:
+        return {
+            "saves": values_by_header.get("SV"),
+            "goals_against": values_by_header.get("GA"),
+        }
+
+    return {
+        "goals": values_by_header.get("G"),
+        "assists": values_by_header.get("A"),
+        "ppp": values_by_header.get("PPP"),
+        "shots": values_by_header.get("SOG"),
+        "hits": values_by_header.get("HIT"),
+        "blocks": values_by_header.get("BLK"),
+    }
 
 
 def _parse_points(value: str) -> Optional[float]:
@@ -184,6 +219,7 @@ def build_payload(history: dict, today: date) -> dict:
                 entry["today"] = {
                     "started": info.get("started"),
                     "points": info.get("points"),
+                    "stats": info.get("stats"),
                     "slot": info.get("slot"),
                     "game_info": info.get("game_info"),
                 }
