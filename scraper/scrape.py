@@ -4,7 +4,8 @@ docs/history.json, and regenerates docs/payload.json with day/week/season
 point totals - counting only points scored while a player was in the
 active (started) lineup slot, never while benched/IR.
 
-Used both by the GitHub Action (scheduled hourly) and locally for testing:
+Used both by the GitHub Action (scheduled on a local-time cadence) and locally
+for testing:
     python scrape.py
 
 NOTE ON SELECTORS: Yahoo's fantasy pages are not publicly inspectable
