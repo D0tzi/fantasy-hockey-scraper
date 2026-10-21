@@ -15,7 +15,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "@ DAL",
+      "game_info": "@ DAL 2ND 20:00",
       "points": 2.0,
       "slot": "D",
       "started": true,
@@ -29,7 +29,7 @@
       }
     },
     "Cole Caufield": {
-      "game_info": "vs SJ",
+      "game_info": "vs SJ 2ND 0:20",
       "points": 11.8,
       "slot": "F",
       "started": true,
@@ -43,7 +43,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ EDM",
+      "game_info": "@ EDM 9:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -57,7 +57,7 @@
       }
     },
     "Lane Hutson": {
-      "game_info": "vs SJ",
+      "game_info": "vs SJ 2ND 0:20",
       "points": 6.4,
       "slot": "D",
       "started": true,
@@ -81,17 +81,17 @@
       }
     },
     "Lukas Dostal": {
-      "game_info": "@ NYI",
-      "points": 1.2,
+      "game_info": "@ NYI 3RD 15:03",
+      "points": 3.0,
       "slot": "G",
       "started": true,
       "stats": {
         "goals_against": 3.0,
-        "saves": 17.0
+        "saves": 20.0
       }
     },
     "Mathew Barzal": {
-      "game_info": "vs ANA",
+      "game_info": "vs ANA 3RD 15:03",
       "points": 0.0,
       "slot": "IR",
       "started": false,
@@ -105,8 +105,8 @@
       }
     },
     "Nathan MacKinnon": {
-      "game_info": "@ NJ",
-      "points": 2.5,
+      "game_info": "@ NJ 3RD 15:21",
+      "points": 3.4,
       "slot": "F",
       "started": true,
       "stats": {
@@ -115,7 +115,7 @@
         "goals": 0.0,
         "hits": 3.0,
         "ppp": 0.0,
-        "shots": 0.0
+        "shots": 1.0
       }
     },
     "Nick Schmaltz": {
@@ -133,7 +133,7 @@
       }
     },
     "Pyotr Kochetkov": {
-      "game_info": "@ VAN",
+      "game_info": "@ VAN 10:00 pm",
       "points": null,
       "slot": "G",
       "started": true,
@@ -143,7 +143,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ EDM",
+      "game_info": "@ EDM 9:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -171,7 +171,7 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ VAN",
+      "game_info": "@ VAN 10:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -199,7 +199,7 @@
       }
     },
     "Will Smith": {
-      "game_info": "@ MTL",
+      "game_info": "@ MTL 2ND 0:20",
       "points": 0.0,
       "slot": "F",
       "started": true,
@@ -213,7 +213,7 @@
       }
     },
     "William Nylander": {
-      "game_info": "@ CBJ",
+      "game_info": "@ CBJ End 2ND",
       "points": 13.8,
       "slot": "F",
       "started": true,
@@ -227,7 +227,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs MIN",
+      "game_info": "vs MIN 9:00 pm",
       "points": null,
       "slot": "F",
       "started": true,

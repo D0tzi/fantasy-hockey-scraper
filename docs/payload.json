@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T00:58:36.197195Z",
-  "updated_at_local": "2026-10-20T18:58-06:00",
+  "updated_at": "2026-10-21T01:05:49.402313Z",
+  "updated_at_local": "2026-10-20T19:05-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -20,7 +20,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ CBJ"
+        "game_info": "@ CBJ End 2ND"
       }
     },
     {
@@ -40,27 +40,27 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ MTL"
+        "game_info": "@ MTL 2ND 0:20"
       }
     },
     {
       "name": "Nathan MacKinnon",
       "position": "F",
-      "week_points": 2.5,
-      "season_points": 2.5,
+      "week_points": 3.4,
+      "season_points": 3.4,
       "today": {
         "started": true,
-        "points": 2.5,
+        "points": 3.4,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 0.0,
+          "shots": 1.0,
           "hits": 3.0,
           "blocks": 1.0
         },
         "slot": "F",
-        "game_info": "@ NJ"
+        "game_info": "@ NJ 3RD 15:21"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ EDM"
+        "game_info": "@ EDM 9:00 pm"
       }
     },
     {
@@ -100,7 +100,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs SJ"
+        "game_info": "vs SJ 2ND 0:20"
       }
     },
     {
@@ -120,7 +120,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs MIN"
+        "game_info": "vs MIN 9:00 pm"
       }
     },
     {
@@ -140,7 +140,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ VAN"
+        "game_info": "@ VAN 10:00 pm"
       }
     },
     {
@@ -160,7 +160,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ EDM"
+        "game_info": "@ EDM 9:00 pm"
       }
     },
     {
@@ -180,7 +180,7 @@
           "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "@ DAL"
+        "game_info": "@ DAL 2ND 20:00"
       }
     },
     {
@@ -200,7 +200,7 @@
           "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "vs SJ"
+        "game_info": "vs SJ 2ND 0:20"
       }
     },
     {
@@ -300,23 +300,23 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "vs ANA"
+        "game_info": "vs ANA 3RD 15:03"
       }
     },
     {
       "name": "Lukas Dostal",
       "position": "G",
-      "week_points": 1.2,
-      "season_points": 1.2,
+      "week_points": 3.0,
+      "season_points": 3.0,
       "today": {
         "started": true,
-        "points": 1.2,
+        "points": 3.0,
         "stats": {
-          "saves": 17.0,
+          "saves": 20.0,
           "goals_against": 3.0
         },
         "slot": "G",
-        "game_info": "@ NYI"
+        "game_info": "@ NYI 3RD 15:03"
       }
     },
     {
@@ -332,7 +332,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ VAN"
+        "game_info": "@ VAN 10:00 pm"
       }
     },
     {
