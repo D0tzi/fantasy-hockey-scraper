@@ -1,0 +1,222 @@
+{
+  "updated_at": "2026-10-21T00:31:44.192365Z",
+  "week_start": "2026-10-19",
+  "players": [
+    {
+      "name": "Aleksander Barkov",
+      "position": null,
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "IR",
+        "game_info": "@ OTT"
+      }
+    },
+    {
+      "name": "Charlie McAvoy",
+      "position": "D",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Cole Caufield",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Joel Eriksson Ek",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Lane Hutson",
+      "position": "D",
+      "week_points": 4.9,
+      "season_points": 4.9,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Linus Ullmark",
+      "position": "G",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "G",
+        "game_info": "vs FLA"
+      }
+    },
+    {
+      "name": "Lukas Dostal",
+      "position": "G",
+      "week_points": -3.0,
+      "season_points": -3.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Mathew Barzal",
+      "position": null,
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "IR",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Nathan MacKinnon",
+      "position": "F",
+      "week_points": 1.0,
+      "season_points": 1.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Nick Schmaltz",
+      "position": null,
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Pyotr Kochetkov",
+      "position": "G",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "G",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Quinn Hughes",
+      "position": "D",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Sam Reinhart",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": "@ OTT"
+      }
+    },
+    {
+      "name": "Shayne Gostisbehere",
+      "position": "D",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Tim Stutzle",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": "vs FLA"
+      }
+    },
+    {
+      "name": "Will Smith",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "William Nylander",
+      "position": "F",
+      "week_points": 6.0,
+      "season_points": 6.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Zach Hyman",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "slot": "F",
+        "game_info": null
+      }
+    }
+  ]
+}
