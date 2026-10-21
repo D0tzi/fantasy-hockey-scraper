@@ -226,6 +226,7 @@ def build_payload(history: dict, today: date) -> dict:
 
     return {
         "updated_at": datetime.utcnow().isoformat() + "Z",
+        "updated_at_local": datetime.now(YAHOO_TIMEZONE).isoformat(timespec="minutes"),
         "week_start": week_begin.isoformat(),
         "players": list(players.values()),
     }
