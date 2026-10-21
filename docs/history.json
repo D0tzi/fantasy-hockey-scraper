@@ -284,6 +284,20 @@
         "shots": null
       }
     },
+    "Cutter Gauthier": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
     "Joel Eriksson Ek": {
       "game_info": null,
       "points": null,
@@ -372,16 +386,6 @@
         "hits": null,
         "ppp": null,
         "shots": null
-      }
-    },
-    "Pyotr Kochetkov": {
-      "game_info": null,
-      "points": null,
-      "slot": "G",
-      "started": true,
-      "stats": {
-        "goals_against": null,
-        "saves": null
       }
     },
     "Quinn Hughes": {
