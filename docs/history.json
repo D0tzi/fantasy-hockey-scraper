@@ -108,5 +108,115 @@
       "slot": "F",
       "started": true
     }
+  },
+  "2026-10-21": {
+    "Aleksander Barkov": {
+      "game_info": "@ OTT",
+      "points": null,
+      "slot": "IR",
+      "started": false
+    },
+    "Charlie McAvoy": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Cole Caufield": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Joel Eriksson Ek": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Lane Hutson": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Linus Ullmark": {
+      "game_info": "vs FLA",
+      "points": null,
+      "slot": "G",
+      "started": true
+    },
+    "Lukas Dostal": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Mathew Barzal": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false
+    },
+    "Nathan MacKinnon": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Nick Schmaltz": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Pyotr Kochetkov": {
+      "game_info": null,
+      "points": null,
+      "slot": "G",
+      "started": true
+    },
+    "Quinn Hughes": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Sam Reinhart": {
+      "game_info": "@ OTT",
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Shayne Gostisbehere": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true
+    },
+    "Tim Stutzle": {
+      "game_info": "vs FLA",
+      "points": null,
+      "slot": "F",
+      "started": true
+    },
+    "Will Smith": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "William Nylander": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false
+    },
+    "Zach Hyman": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true
+    }
   }
 }
