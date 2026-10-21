@@ -15,7 +15,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "@ DAL End 2ND",
+      "game_info": "@ DAL 3RD 19:10",
       "points": 2.0,
       "slot": "D",
       "started": true,
@@ -29,7 +29,7 @@
       }
     },
     "Cole Caufield": {
-      "game_info": "vs SJ OT 5:00",
+      "game_info": "vs SJ",
       "points": 12.7,
       "slot": "F",
       "started": true,
@@ -43,8 +43,8 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ EDM 1ST 2:45",
-      "points": 9.6,
+      "game_info": "@ EDM End 1ST",
+      "points": 11.4,
       "slot": "F",
       "started": true,
       "stats": {
@@ -53,17 +53,17 @@
         "goals": 1.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 4.0
+        "shots": 6.0
       }
     },
     "Lane Hutson": {
-      "game_info": "vs SJ OT 5:00",
-      "points": 8.3,
+      "game_info": "vs SJ",
+      "points": 9.3,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 1.0,
-        "blocks": 2.0,
+        "blocks": 3.0,
         "goals": 0.0,
         "hits": 1.0,
         "ppp": 0.0,
@@ -105,7 +105,7 @@
       }
     },
     "Nathan MacKinnon": {
-      "game_info": "@ NJ 3RD 0:04",
+      "game_info": "@ NJ",
       "points": 7.0,
       "slot": "F",
       "started": true,
@@ -143,7 +143,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ EDM 1ST 2:45",
+      "game_info": "@ EDM End 1ST",
       "points": 1.8,
       "slot": "D",
       "started": true,
@@ -199,16 +199,16 @@
       }
     },
     "Will Smith": {
-      "game_info": "@ MTL OT 5:00",
-      "points": 0.9,
+      "game_info": "@ MTL",
+      "points": 6.9,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": 0.0,
+        "assists": 1.0,
         "blocks": 0.0,
         "goals": 0.0,
         "hits": 0.0,
-        "ppp": 0.0,
+        "ppp": 1.0,
         "shots": 1.0
       }
     },
@@ -227,17 +227,17 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs MIN 1ST 2:45",
-      "points": 0.0,
+      "game_info": "vs MIN End 1ST",
+      "points": 1.4,
       "slot": "F",
       "started": true,
       "stats": {
         "assists": 0.0,
         "blocks": 0.0,
         "goals": 0.0,
-        "hits": 0.0,
+        "hits": 1.0,
         "ppp": 0.0,
-        "shots": 0.0
+        "shots": 1.0
       }
     }
   },
