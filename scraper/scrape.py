@@ -161,13 +161,37 @@ def _extract_points(tokens: list[str]) -> Optional[float]:
 
 
 def _extract_game_info(row_text: str) -> Optional[str]:
-    """Heuristic: look for 'vs XXX' / '@ XXX' opponent patterns or a game time."""
-    match = re.search(r"(vs|@)\s*[A-Z]{2,3}", row_text)
-    if match:
-        return match.group(0)
-    match = re.search(r"\d{1,2}:\d{2}\s*(AM|PM|am|pm)", row_text)
-    if match:
-        return match.group(0)
+    """Extract Yahoo's opponent and live period/clock or scheduled start time."""
+    opponent_match = re.search(r"(?:\b(vs\.?)\s*|(@)\s*)([A-Z]{2,3})\b", row_text)
+    opponent = None
+    if opponent_match:
+        direction = "vs" if opponent_match.group(1) else "@"
+        opponent = f"{direction} {opponent_match.group(3)}"
+
+    period_match = re.search(
+        r"\b(End\s+)?(1st|2nd|3rd|4th|OT|SO)\b(?:\s+(\d{1,2}:\d{2}))?",
+        row_text,
+        re.IGNORECASE,
+    )
+    if period_match:
+        period = period_match.group(2).upper()
+        clock = period_match.group(3)
+        if period_match.group(1):
+            game_state = f"End {period}"
+        elif clock:
+            game_state = f"{period} {clock}"
+        else:
+            game_state = period
+        return " ".join(part for part in (opponent, game_state) if part)
+
+    if opponent:
+        start_time_match = re.search(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\b", row_text, re.IGNORECASE)
+        if start_time_match:
+            return f"{opponent} {start_time_match.group(0)}"
+        if re.search(r"\bFinal\b", row_text, re.IGNORECASE):
+            return f"{opponent} Final"
+        return opponent
+
     return None
 
 
