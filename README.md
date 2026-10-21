@@ -1,9 +1,10 @@
 # Yahoo Fantasy Hockey Scraper
 
-Scrapes your Yahoo Fantasy Hockey team hourly via a GitHub Action, and
-publishes a small JSON file (via GitHub Pages) with day/week/season point
-totals for each of your players — counting only points scored while they
-were in your **starting** lineup (never points scored while benched/IR).
+Scrapes your Yahoo Fantasy Hockey team every 15 minutes from 5:00 p.m. to
+10:30 p.m. Calgary time, every day, via a GitHub Action. It publishes a small
+JSON file (via GitHub Pages) with day/week/season point totals for each of your
+players — counting only points scored while they were in your **starting**
+lineup (never points scored while benched/IR).
 
 This is a standalone project meant to live in its own GitHub repository —
 nothing in here depends on anything else in this workspace, and nothing
@@ -12,7 +13,7 @@ else in this workspace depends on it.
 ```mermaid
 flowchart LR
     L[login.py<br/>one-time, local] -- storage_state.json --> S[GitHub secret<br/>YAHOO_STORAGE_STATE]
-    S --> A[GitHub Action<br/>hourly]
+    S --> A[GitHub Action<br/>daily 17:00-22:30 Calgary time]
     A -- Playwright --> Y[Yahoo Fantasy Hockey]
     A -- commits --> D[docs/payload.json<br/>+ history.json]
     D -- GitHub Pages --> W[Garmin watch app]
@@ -20,15 +21,15 @@ flowchart LR
 
 ## Known limitation: scraping is best-effort
 
-Yahoo's fantasy pages require a login and are rendered client-side, so I
-could not inspect the real page markup while building this. The parsing in
-`scraper/scrape.py` (`parse_roster_rows`) is based on Yahoo's well-known,
-long-standing page conventions (a roster table, one row per player, a link
-to `/hockey/players/<id>`, a slot abbreviation like `C`/`LW`/`D`/`BN`, and a
-trailing points number) — but it is **not guaranteed to match pixel-for-pixel
-with what Yahoo currently renders**. If `scrape.py` runs but finds zero/wrong
-players, use `debug_dump.py` (see Troubleshooting) to see the real page and
-adjust `parse_roster_rows()`.
+Yahoo's fantasy pages require a login and are rendered client-side. The
+scraper identifies players through Yahoo's `/nhl/players/<id>` links and
+reads the assigned lineup slot and fantasy points from the roster row's
+`td.edit` and `td.pts` cells. It also reads the current game stat columns
+from the row headers: G, A, PPP, SOG, HIT, and BLK for skaters; GA and SV
+for goalies. Game info includes the opponent and, when Yahoo shows a live
+scoreboard, the current period and clock. Yahoo may change this page markup;
+if scraping fails, use `debug_dump.py` (see Troubleshooting) to inspect the
+page.
 
 ## 1. Create the GitHub repo
 
@@ -98,12 +99,13 @@ https://<you>.github.io/<repo>/payload.json
 
 **Actions** tab → "Scrape Yahoo Fantasy Hockey" → **Run workflow** (the
 `workflow_dispatch` trigger lets you run it on demand instead of waiting
-for the hourly schedule). Check the run logs; if `scrape.py` reports 0
-players found, see Troubleshooting below.
+for the daily 5:00-10:30 p.m. Calgary-time schedule). The scheduled runs occur
+every 15 minutes in that window and nowhere else. Check the run logs; if
+`scrape.py` reports 0 players found, see Troubleshooting below.
 
 ## 6. (Optional) Backfill the season so far
 
-The hourly Action only accumulates data from when it starts running. To
+The scheduled Action only accumulates data from when it starts running. To
 backfill earlier days in the season so far, run this **locally** (it's too
 slow for a scheduled Action run):
 
@@ -119,7 +121,11 @@ Then commit and push the updated `docs/history.json` yourself.
 
 ## Troubleshooting
 
-If `scrape.py` isn't finding your players:
+If `scrape.py` isn't finding your players, it prints a page title, URL
+(without query parameters), roster-row count, and player-link count. A Yahoo
+sign-in or consent page indicates the saved session was not accepted; a
+normal roster page with zero matching player links likely means Yahoo changed
+its markup. To inspect the page locally:
 
 ```powershell
 cd scraper
@@ -127,6 +133,11 @@ $env:YAHOO_LEAGUE_ID = "<league id>"
 $env:YAHOO_TEAM_ID = "<team id>"
 python debug_dump.py
 ```
+
+The scraper waits for the page's DOM and roster table instead of waiting for
+all network activity to stop, since Yahoo can keep background requests open.
+If the workflow reports that the roster table did not load, verify the team
+URL and saved Yahoo session, then run `debug_dump.py` to inspect what loaded.
 
 This saves `debug_page.html` and `debug_page.png` of today's roster page.
 Open the screenshot to see what Yahoo actually rendered, and inspect the
@@ -140,6 +151,7 @@ different way the slot/points values are laid out).
 ```json
 {
   "updated_at": "2026-01-15T18:00:00Z",
+  "updated_at_local": "2026-01-15T11:00-07:00",
   "week_start": "2026-01-12",
   "players": [
     {
@@ -150,6 +162,14 @@ different way the slot/points values are laid out).
       "today": {
         "started": true,
         "points": 3.5,
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "ppp": 1,
+          "shots": 4,
+          "hits": 2,
+          "blocks": 0
+        },
         "slot": "C",
         "game_info": "vs BOS"
       }

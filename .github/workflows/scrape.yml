@@ -2,7 +2,8 @@ name: Scrape Yahoo Fantasy Hockey
 
 on:
   schedule:
-    - cron: "*/15 0-6,17-23 * * *"
+    - cron: "*/15 0-3,23 * * *"
+    - cron: "0,15,30 4 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -14,41 +15,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check Mountain-time scrape window
-        id: window
-        if: github.event_name == 'schedule'
-        env:
-          YAHOO_TIMEZONE: ${{ vars.YAHOO_TIMEZONE || 'America/Denver' }}
-        run: |
-          local_time=$(TZ="$YAHOO_TIMEZONE" date +%H%M)
-          if [ "$local_time" -ge 1100 ] && [ "$local_time" -le 2330 ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Outside scrape window in $YAHOO_TIMEZONE ($local_time); skipping scrape."
-          fi
-
       - uses: actions/setup-python@v5
-        if: github.event_name != 'schedule' || steps.window.outputs.run == 'true'
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        if: github.event_name != 'schedule' || steps.window.outputs.run == 'true'
         working-directory: scraper
         run: |
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
       - name: Restore Yahoo session
-        if: github.event_name != 'schedule' || steps.window.outputs.run == 'true'
         working-directory: scraper
         env:
           YAHOO_STORAGE_STATE: ${{ secrets.YAHOO_STORAGE_STATE }}
         run: echo "$YAHOO_STORAGE_STATE" > storage_state.json
 
       - name: Scrape roster and build payload
-        if: github.event_name != 'schedule' || steps.window.outputs.run == 'true'
         working-directory: scraper
         env:
           YAHOO_LEAGUE_ID: ${{ vars.YAHOO_LEAGUE_ID }}
@@ -58,7 +41,6 @@ jobs:
         run: python scrape.py
 
       - name: Commit updated data
-        if: github.event_name != 'schedule' || steps.window.outputs.run == 'true'
         run: |
           git config user.name "fantasy-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
