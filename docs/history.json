@@ -339,8 +339,8 @@
     "Lukas Dostal": {
       "game_info": null,
       "points": null,
-      "slot": "BN",
-      "started": false,
+      "slot": "G",
+      "started": true,
       "stats": {
         "goals_against": null,
         "saves": null
