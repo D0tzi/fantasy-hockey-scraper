@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T21:40:58.080438Z",
-  "updated_at_local": "2026-10-22T15:40-06:00",
+  "updated_at": "2026-10-22T22:09:19.744144Z",
+  "updated_at_local": "2026-10-22T16:09-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -20,7 +20,7 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "@ PIT 7:00 pm"
+        "game_info": "@ PIT 4:00 pm"
       }
     },
     {
@@ -40,7 +40,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "vs NSH 7:00 pm"
+        "game_info": "vs NSH 4:00 pm"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ CGY 9:00 pm"
+        "game_info": "@ CGY 6:00 pm"
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs SJ 7:00 pm"
+        "game_info": "vs SJ 4:00 pm"
       }
     },
     {
@@ -132,7 +132,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ NJ 7:00 pm"
+        "game_info": "@ NJ 4:00 pm"
       }
     },
     {
@@ -152,7 +152,7 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "vs LA 7:30 pm"
+        "game_info": "vs LA 4:30 pm"
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 10:00 pm"
+        "game_info": "@ SEA 7:00 pm"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ CGY 9:00 pm"
+        "game_info": "@ CGY 6:00 pm"
       }
     },
     {
@@ -239,7 +239,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ PIT 7:00 pm"
+        "game_info": "@ PIT 4:00 pm"
       }
     },
     {
@@ -259,7 +259,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ EDM 9:00 pm"
+        "game_info": "@ EDM 6:00 pm"
       }
     },
     {
@@ -279,7 +279,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs SJ 7:00 pm"
+        "game_info": "vs SJ 4:00 pm"
       }
     },
     {
@@ -306,7 +306,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs NYR 7:00 pm"
+        "game_info": "vs NYR 4:00 pm"
       }
     },
     {
@@ -326,7 +326,7 @@
           "blocks": null
         },
         "slot": "BN",
-        "game_info": "vs CAR 9:00 pm"
+        "game_info": "vs CAR 6:00 pm"
       }
     },
     {
@@ -346,7 +346,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ NJ 7:00 pm"
+        "game_info": "@ NJ 4:00 pm"
       }
     },
     {
@@ -366,7 +366,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ DAL 8:00 pm"
+        "game_info": "@ DAL 5:00 pm"
       }
     }
   ]

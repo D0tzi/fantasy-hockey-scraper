@@ -489,7 +489,7 @@
   },
   "2026-10-22": {
     "Aleksander Barkov": {
-      "game_info": "@ PIT 7:00 pm",
+      "game_info": "@ PIT 4:00 pm",
       "points": null,
       "slot": "IR",
       "started": false,
@@ -503,7 +503,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs NSH 7:00 pm",
+      "game_info": "vs NSH 4:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -531,7 +531,7 @@
       }
     },
     "Cutter Gauthier": {
-      "game_info": "@ NJ 7:00 pm",
+      "game_info": "@ NJ 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -545,7 +545,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ CGY 9:00 pm",
+      "game_info": "@ CGY 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -573,7 +573,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs SJ 7:00 pm",
+      "game_info": "vs SJ 4:00 pm",
       "points": null,
       "slot": "IR+",
       "started": false,
@@ -583,7 +583,7 @@
       }
     },
     "Lukas Dostal": {
-      "game_info": "@ NJ 7:00 pm",
+      "game_info": "@ NJ 4:00 pm",
       "points": null,
       "slot": "G",
       "started": true,
@@ -593,7 +593,7 @@
       }
     },
     "Mathew Barzal": {
-      "game_info": "vs LA 7:30 pm",
+      "game_info": "vs LA 4:30 pm",
       "points": null,
       "slot": "IR",
       "started": false,
@@ -621,7 +621,7 @@
       }
     },
     "Neal Pionk": {
-      "game_info": "@ DAL 8:00 pm",
+      "game_info": "@ DAL 5:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -635,7 +635,7 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "@ SEA 10:00 pm",
+      "game_info": "@ SEA 7:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -649,7 +649,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ CGY 9:00 pm",
+      "game_info": "@ CGY 6:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -663,7 +663,7 @@
       }
     },
     "Sam Reinhart": {
-      "game_info": "@ PIT 7:00 pm",
+      "game_info": "@ PIT 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -677,7 +677,7 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ EDM 9:00 pm",
+      "game_info": "@ EDM 6:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -691,7 +691,7 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs SJ 7:00 pm",
+      "game_info": "vs SJ 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -705,7 +705,7 @@
       }
     },
     "William Nylander": {
-      "game_info": "vs NYR 7:00 pm",
+      "game_info": "vs NYR 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -719,7 +719,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs CAR 9:00 pm",
+      "game_info": "vs CAR 6:00 pm",
       "points": null,
       "slot": "BN",
       "started": false,
