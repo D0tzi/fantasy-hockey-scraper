@@ -243,8 +243,8 @@
   },
   "2026-10-21": {
     "Aleksander Barkov": {
-      "game_info": "@ OTT 7:30 pm",
-      "points": null,
+      "game_info": "@ OTT 2ND 8:17",
+      "points": 0.0,
       "slot": "IR",
       "started": false,
       "stats": {
@@ -327,13 +327,13 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs FLA 7:30 pm",
-      "points": null,
+      "game_info": "vs FLA 2ND 8:17",
+      "points": 3.0,
       "slot": "G",
       "started": true,
       "stats": {
-        "goals_against": null,
-        "saves": null
+        "goals_against": 1.0,
+        "saves": 10.0
       }
     },
     "Lukas Dostal": {
@@ -374,6 +374,20 @@
         "shots": null
       }
     },
+    "Neal Pionk": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
     "Nick Schmaltz": {
       "game_info": null,
       "points": null,
@@ -403,17 +417,17 @@
       }
     },
     "Sam Reinhart": {
-      "game_info": "@ OTT 7:30 pm",
-      "points": null,
+      "game_info": "@ OTT 2ND 8:17",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Shayne Gostisbehere": {
@@ -431,31 +445,17 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs FLA 7:30 pm",
-      "points": null,
+      "game_info": "vs FLA 2ND 8:17",
+      "points": 9.9,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
-      }
-    },
-    "Will Smith": {
-      "game_info": null,
-      "points": null,
-      "slot": "BN",
-      "started": false,
-      "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 1.0,
+        "shots": 1.0
       }
     },
     "William Nylander": {
