@@ -575,8 +575,8 @@
     "Linus Ullmark": {
       "game_info": "vs SJ 7:00 pm",
       "points": null,
-      "slot": "G",
-      "started": true,
+      "slot": "IR+",
+      "started": false,
       "stats": {
         "goals_against": null,
         "saves": null
