@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T22:09:19.744144Z",
-  "updated_at_local": "2026-10-22T16:09-06:00",
+  "updated_at": "2026-10-23T01:09:06.575754Z",
+  "updated_at_local": "2026-10-22T19:09-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -10,7 +10,7 @@
       "season_points": 0.0,
       "today": {
         "started": false,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -20,27 +20,27 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "@ PIT 4:00 pm"
+        "game_info": "@ PIT 3RD 15:41"
       }
     },
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 5.0,
-      "season_points": 5.0,
+      "week_points": 20.4,
+      "season_points": 20.4,
       "today": {
         "started": true,
-        "points": null,
+        "points": 15.4,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 3.0,
+          "ppp": 1.0,
+          "shots": 1.0,
+          "hits": 1.0,
+          "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "vs NSH 4:00 pm"
+        "game_info": "vs NSH 3RD 15:00"
       }
     },
     {
@@ -70,7 +70,7 @@
       "season_points": 11.4,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ CGY 6:00 pm"
+        "game_info": "@ CGY 1ST 19:27"
       }
     },
     {
@@ -110,13 +110,13 @@
       "season_points": 3.0,
       "today": {
         "started": false,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "saves": null,
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs SJ 4:00 pm"
+        "game_info": "vs SJ 3RD 18:02"
       }
     },
     {
@@ -126,13 +126,13 @@
       "season_points": 4.2,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "saves": null,
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ NJ 4:00 pm"
+        "game_info": "@ NJ 3RD 11:40"
       }
     },
     {
@@ -142,7 +142,7 @@
       "season_points": 0.0,
       "today": {
         "started": false,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -152,7 +152,7 @@
           "blocks": null
         },
         "slot": "IR",
-        "game_info": "vs LA 4:30 pm"
+        "game_info": "vs LA 2ND 5:54"
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 10:00 pm"
       }
     },
     {
@@ -209,7 +209,7 @@
       "season_points": 2.7,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -219,27 +219,27 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ CGY 6:00 pm"
+        "game_info": "@ CGY 1ST 19:27"
       }
     },
     {
       "name": "Sam Reinhart",
       "position": "F",
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "week_points": 4.6,
+      "season_points": 4.6,
       "today": {
         "started": true,
-        "points": null,
+        "points": 4.6,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 4.0,
+          "hits": 2.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ PIT 4:00 pm"
+        "game_info": "@ PIT 3RD 15:41"
       }
     },
     {
@@ -249,7 +249,7 @@
       "season_points": 0.0,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -259,27 +259,27 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ EDM 6:00 pm"
+        "game_info": "@ EDM 1ST 20:00"
       }
     },
     {
       "name": "Tim Stutzle",
       "position": "F",
-      "week_points": 9.9,
-      "season_points": 9.9,
+      "week_points": 19.8,
+      "season_points": 19.8,
       "today": {
         "started": true,
-        "points": null,
+        "points": 9.9,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 1.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 1.0,
+          "hits": 4.0,
+          "blocks": 1.0
         },
         "slot": "F",
-        "game_info": "vs SJ 4:00 pm"
+        "game_info": "vs SJ 3RD 18:02"
       }
     },
     {
@@ -292,21 +292,21 @@
     {
       "name": "William Nylander",
       "position": "F",
-      "week_points": 13.8,
-      "season_points": 13.8,
+      "week_points": 19.8,
+      "season_points": 19.8,
       "today": {
         "started": true,
-        "points": null,
+        "points": 6.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 1.0,
+          "ppp": 1.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs NYR 4:00 pm"
+        "game_info": "vs NYR 3RD 19:10"
       }
     },
     {
@@ -316,7 +316,7 @@
       "season_points": 1.4,
       "today": {
         "started": false,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -326,47 +326,47 @@
           "blocks": null
         },
         "slot": "BN",
-        "game_info": "vs CAR 6:00 pm"
+        "game_info": "vs CAR 1ST 20:00"
       }
     },
     {
       "name": "Cutter Gauthier",
       "position": "F",
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "week_points": 1.4,
+      "season_points": 1.4,
       "today": {
         "started": true,
-        "points": null,
+        "points": 1.4,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 1.0,
+          "hits": 1.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ NJ 4:00 pm"
+        "game_info": "@ NJ 3RD 11:40"
       }
     },
     {
       "name": "Neal Pionk",
       "position": "D",
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "week_points": 1.9,
+      "season_points": 1.9,
       "today": {
         "started": true,
-        "points": null,
+        "points": 1.9,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 1.0,
+          "hits": 0.0,
+          "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "@ DAL 5:00 pm"
+        "game_info": "@ DAL 2ND 16:59"
       }
     }
   ]
