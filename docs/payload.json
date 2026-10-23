@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T06:02:05.678154Z",
-  "updated_at_local": "2026-10-23T00:02-06:00",
+  "updated_at": "2026-10-23T09:25:10.854610Z",
+  "updated_at_local": "2026-10-23T03:25-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -60,7 +60,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ CHI 8:00 pm"
+        "game_info": "@ CHI 5:00 pm"
       }
     },
     {
@@ -100,7 +100,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ CHI 8:00 pm"
+        "game_info": "@ CHI 5:00 pm"
       }
     },
     {
@@ -172,7 +172,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TB 9:00 pm"
+        "game_info": "vs TB 6:00 pm"
       }
     },
     {
