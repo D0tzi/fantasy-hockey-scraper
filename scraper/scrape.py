@@ -169,6 +169,9 @@ def _extract_game_info(row_text: str) -> Optional[str]:
         direction = "vs" if opponent_match.group(1) else "@"
         opponent = f"{direction} {opponent_match.group(3)}"
 
+    if re.search(r"\bFinal\b", row_text, re.IGNORECASE):
+        return "END"
+
     period_match = re.search(
         r"\b(End\s+)?(1st|2nd|3rd|4th|OT|SO)\b(?:\s+(\d{1,2}:\d{2}))?",
         row_text,
@@ -189,8 +192,6 @@ def _extract_game_info(row_text: str) -> Optional[str]:
         start_time_match = re.search(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\b", row_text, re.IGNORECASE)
         if start_time_match:
             return f"{opponent} {start_time_match.group(0)}"
-        if re.search(r"\bFinal\b", row_text, re.IGNORECASE):
-            return f"{opponent} Final"
         return opponent
 
     return None
