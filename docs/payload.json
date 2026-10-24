@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T06:08:52.283958Z",
-  "updated_at_local": "2026-10-24T00:08-06:00",
+  "updated_at": "2026-10-24T08:44:56.471993Z",
+  "updated_at_local": "2026-10-24T02:44-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -40,7 +40,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "vs SJ 4:00 pm"
+        "game_info": "vs SJ 6:00 pm"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 9:00 pm"
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 4:00 pm"
+        "game_info": "vs NYR 6:00 pm"
       }
     },
     {
@@ -132,7 +132,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ PHI 10:00 am"
+        "game_info": "@ PHI 12:00 pm"
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TB 6:00 pm"
+        "game_info": "vs TB 8:00 pm"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 9:00 pm"
       }
     },
     {
@@ -246,7 +246,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ STL 4:00 pm"
+        "game_info": "@ STL 6:00 pm"
       }
     },
     {
@@ -266,7 +266,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs NYR 4:00 pm"
+        "game_info": "vs NYR 6:00 pm"
       }
     },
     {
@@ -293,7 +293,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ EDM 4:00 pm"
+        "game_info": "@ EDM 6:00 pm"
       }
     },
     {
@@ -313,7 +313,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TOR 4:00 pm"
+        "game_info": "vs TOR 6:00 pm"
       }
     },
     {
@@ -333,7 +333,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ PHI 10:00 am"
+        "game_info": "@ PHI 12:00 pm"
       }
     },
     {
@@ -369,7 +369,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "vs LA 12:30 pm"
+        "game_info": "vs LA 2:30 pm"
       }
     }
   ]

@@ -991,7 +991,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 4:00 pm",
+      "game_info": "vs SJ 6:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1019,7 +1019,7 @@
       }
     },
     "Connor Hellebuyck": {
-      "game_info": "vs LA 12:30 pm",
+      "game_info": "vs LA 2:30 pm",
       "points": null,
       "slot": "G",
       "started": true,
@@ -1029,7 +1029,7 @@
       }
     },
     "Cutter Gauthier": {
-      "game_info": "@ PHI 10:00 am",
+      "game_info": "@ PHI 12:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1043,7 +1043,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 9:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1071,7 +1071,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 4:00 pm",
+      "game_info": "vs NYR 6:00 pm",
       "points": null,
       "slot": "IR+",
       "started": false,
@@ -1081,7 +1081,7 @@
       }
     },
     "Lukas Dostal": {
-      "game_info": "@ PHI 10:00 am",
+      "game_info": "@ PHI 12:00 pm",
       "points": null,
       "slot": "G",
       "started": true,
@@ -1133,7 +1133,7 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "vs TB 6:00 pm",
+      "game_info": "vs TB 8:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1147,7 +1147,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 9:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1161,7 +1161,7 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 4:00 pm",
+      "game_info": "@ STL 6:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1175,7 +1175,7 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 4:00 pm",
+      "game_info": "vs NYR 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1189,7 +1189,7 @@
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 4:00 pm",
+      "game_info": "@ EDM 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1203,7 +1203,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 4:00 pm",
+      "game_info": "vs TOR 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
