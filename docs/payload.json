@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T09:25:10.854610Z",
-  "updated_at_local": "2026-10-23T03:25-06:00",
+  "updated_at": "2026-10-24T01:20:20.292167Z",
+  "updated_at_local": "2026-10-23T19:20-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -46,8 +46,28 @@
     {
       "name": "Cole Caufield",
       "position": "F",
-      "week_points": 12.7,
-      "season_points": 12.7,
+      "week_points": 14.5,
+      "season_points": 14.5,
+      "today": {
+        "started": true,
+        "points": 1.8,
+        "stats": {
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 2.0,
+          "hits": 0.0,
+          "blocks": 0.0
+        },
+        "slot": "F",
+        "game_info": "@ CHI 2ND 14:32"
+      }
+    },
+    {
+      "name": "Joel Eriksson Ek",
+      "position": "F",
+      "week_points": 11.4,
+      "season_points": 11.4,
       "today": {
         "started": true,
         "points": null,
@@ -60,26 +80,6 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ CHI 5:00 pm"
-      }
-    },
-    {
-      "name": "Joel Eriksson Ek",
-      "position": "F",
-      "week_points": 11.4,
-      "season_points": 11.4,
-      "today": {
-        "started": false,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "BN",
         "game_info": null
       }
     },
@@ -90,17 +90,17 @@
       "season_points": 9.3,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ CHI 5:00 pm"
+        "game_info": "@ CHI 2ND 14:32"
       }
     },
     {
@@ -158,21 +158,21 @@
     {
       "name": "Nathan MacKinnon",
       "position": "F",
-      "week_points": 7.0,
-      "season_points": 7.0,
+      "week_points": 11.0,
+      "season_points": 11.0,
       "today": {
         "started": true,
-        "points": null,
+        "points": 4.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 1.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TB 6:00 pm"
+        "game_info": "vs TB 1ST 15:10"
       }
     },
     {
@@ -227,20 +227,7 @@
       "position": "F",
       "week_points": 4.6,
       "season_points": 4.6,
-      "today": {
-        "started": true,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "F",
-        "game_info": null
-      }
+      "today": null
     },
     {
       "name": "Shayne Gostisbehere",
@@ -366,6 +353,22 @@
           "blocks": null
         },
         "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Connor Hellebuyck",
+      "position": "G",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "saves": null,
+          "goals_against": null
+        },
+        "slot": "G",
         "game_info": null
       }
     }

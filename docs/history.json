@@ -763,17 +763,27 @@
       }
     },
     "Cole Caufield": {
-      "game_info": "@ CHI 5:00 pm",
-      "points": null,
+      "game_info": "@ CHI 2ND 14:32",
+      "points": 1.8,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 2.0
+      }
+    },
+    "Connor Hellebuyck": {
+      "game_info": null,
+      "points": null,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
       }
     },
     "Cutter Gauthier": {
@@ -793,8 +803,8 @@
     "Joel Eriksson Ek": {
       "game_info": null,
       "points": null,
-      "slot": "BN",
-      "started": false,
+      "slot": "F",
+      "started": true,
       "stats": {
         "assists": null,
         "blocks": null,
@@ -805,17 +815,17 @@
       }
     },
     "Lane Hutson": {
-      "game_info": "@ CHI 5:00 pm",
-      "points": null,
+      "game_info": "@ CHI 2ND 14:32",
+      "points": 0.0,
       "slot": "D",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Linus Ullmark": {
@@ -853,17 +863,17 @@
       }
     },
     "Nathan MacKinnon": {
-      "game_info": "vs TB 6:00 pm",
-      "points": null,
+      "game_info": "vs TB 1ST 15:10",
+      "points": 4.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 1.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Neal Pionk": {
@@ -898,20 +908,6 @@
       "game_info": null,
       "points": null,
       "slot": "D",
-      "started": true,
-      "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
-      }
-    },
-    "Sam Reinhart": {
-      "game_info": null,
-      "points": null,
-      "slot": "F",
       "started": true,
       "stats": {
         "assists": null,
