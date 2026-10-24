@@ -991,8 +991,8 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 1ST 9:58",
-      "points": 1.0,
+      "game_info": "vs SJ 1ST 1:04",
+      "points": 1.9,
       "slot": "D",
       "started": true,
       "stats": {
@@ -1001,7 +1001,7 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 0.0
+        "shots": 1.0
       }
     },
     "Cole Caufield": {
@@ -1043,7 +1043,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ SEA 10:00 pm",
+      "game_info": "@ SEA 7:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1071,7 +1071,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 1ST 10:35",
+      "game_info": "vs NYR 1ST 0:15",
       "points": 0.0,
       "slot": "IR+",
       "started": false,
@@ -1133,7 +1133,7 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "vs TB 9:00 pm",
+      "game_info": "vs TB 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1147,7 +1147,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ SEA 10:00 pm",
+      "game_info": "@ SEA 7:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1161,7 +1161,7 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 1ST 9:45",
+      "game_info": "@ STL 1ST 2:41",
       "points": 0.9,
       "slot": "D",
       "started": true,
@@ -1175,35 +1175,35 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 1ST 10:35",
-      "points": 6.9,
+      "game_info": "vs NYR 1ST 0:15",
+      "points": 7.9,
       "slot": "F",
       "started": true,
       "stats": {
         "assists": 0.0,
         "blocks": 0.0,
         "goals": 1.0,
-        "hits": 0.0,
+        "hits": 2.0,
         "ppp": 0.0,
         "shots": 1.0
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 1ST 10:54",
-      "points": 0.0,
+      "game_info": "@ EDM 1ST 2:28",
+      "points": 0.5,
       "slot": "F",
       "started": true,
       "stats": {
         "assists": 0.0,
         "blocks": 0.0,
         "goals": 0.0,
-        "hits": 0.0,
+        "hits": 1.0,
         "ppp": 0.0,
         "shots": 0.0
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 1ST 10:54",
+      "game_info": "vs TOR 1ST 2:28",
       "points": 0.0,
       "slot": "F",
       "started": true,

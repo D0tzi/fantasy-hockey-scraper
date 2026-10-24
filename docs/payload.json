@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T23:30:50.560366Z",
-  "updated_at_local": "2026-10-24T17:30-06:00",
+  "updated_at": "2026-10-24T23:45:06.378916Z",
+  "updated_at_local": "2026-10-24T17:45-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -26,21 +26,21 @@
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 21.4,
-      "season_points": 21.4,
+      "week_points": 22.299999999999997,
+      "season_points": 22.299999999999997,
       "today": {
         "started": true,
-        "points": 1.0,
+        "points": 1.9,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 0.0,
+          "shots": 1.0,
           "hits": 0.0,
           "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "vs SJ 1ST 9:58"
+        "game_info": "vs SJ 1ST 1:04"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 10:00 pm"
+        "game_info": "@ SEA 7:00 pm"
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 1ST 10:35"
+        "game_info": "vs NYR 1ST 0:15"
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TB 9:00 pm"
+        "game_info": "vs TB 6:00 pm"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 10:00 pm"
+        "game_info": "@ SEA 7:00 pm"
       }
     },
     {
@@ -246,27 +246,27 @@
           "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ STL 1ST 9:45"
+        "game_info": "@ STL 1ST 2:41"
       }
     },
     {
       "name": "Tim Stutzle",
       "position": "F",
-      "week_points": 26.700000000000003,
-      "season_points": 26.700000000000003,
+      "week_points": 27.700000000000003,
+      "season_points": 27.700000000000003,
       "today": {
         "started": true,
-        "points": 6.9,
+        "points": 7.9,
         "stats": {
           "goals": 1.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 1.0,
-          "hits": 0.0,
+          "hits": 2.0,
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs NYR 1ST 10:35"
+        "game_info": "vs NYR 1ST 0:15"
       }
     },
     {
@@ -279,21 +279,21 @@
     {
       "name": "William Nylander",
       "position": "F",
-      "week_points": 19.8,
-      "season_points": 19.8,
+      "week_points": 20.3,
+      "season_points": 20.3,
       "today": {
         "started": true,
-        "points": 0.0,
+        "points": 0.5,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 0.0,
-          "hits": 0.0,
+          "hits": 1.0,
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM 1ST 10:54"
+        "game_info": "@ EDM 1ST 2:28"
       }
     },
     {
@@ -313,7 +313,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TOR 1ST 10:54"
+        "game_info": "vs TOR 1ST 2:28"
       }
     },
     {
