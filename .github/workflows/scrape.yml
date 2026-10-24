@@ -1,9 +1,6 @@
 name: Scrape Yahoo Fantasy Hockey
 
 on:
-  schedule:
-    - cron: "*/15 0-3,23 * * *"
-    - cron: "0,15,30 4 * * *"
   workflow_dispatch: {}
 
 permissions:

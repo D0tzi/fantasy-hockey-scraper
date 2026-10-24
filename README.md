@@ -1,10 +1,9 @@
 # Yahoo Fantasy Hockey Scraper
 
-Scrapes your Yahoo Fantasy Hockey team every 15 minutes from 5:00 p.m. to
-10:30 p.m. Calgary time, every day, via a GitHub Action. It publishes a small
-JSON file (via GitHub Pages) with day/week/season point totals for each of your
-players — counting only points scored while they were in your **starting**
-lineup (never points scored while benched/IR).
+Scrapes your Yahoo Fantasy Hockey team on demand via a GitHub Action. It
+publishes a small JSON file (via GitHub Pages) with day/week/season point totals
+for each of your players — counting only points scored while they were in your
+**starting** lineup (never points scored while benched/IR).
 
 This is a standalone project meant to live in its own GitHub repository —
 nothing in here depends on anything else in this workspace, and nothing
@@ -13,7 +12,7 @@ else in this workspace depends on it.
 ```mermaid
 flowchart LR
     L[login.py<br/>one-time, local] -- storage_state.json --> S[GitHub secret<br/>YAHOO_STORAGE_STATE]
-    S --> A[GitHub Action<br/>daily 17:00-22:30 Calgary time]
+    S --> A[GitHub Action<br/>manual dispatch from watch or Actions page]
     A -- Playwright --> Y[Yahoo Fantasy Hockey]
     A -- commits --> D[docs/payload.json<br/>+ history.json]
     D -- GitHub Pages --> W[Garmin watch app]
@@ -97,10 +96,13 @@ https://<you>.github.io/<repo>/payload.json
 
 ## 5. Run the Action
 
-**Actions** tab → "Scrape Yahoo Fantasy Hockey" → **Run workflow** (the
-`workflow_dispatch` trigger lets you run it on demand instead of waiting
-for the daily 5:00-10:30 p.m. Calgary-time schedule). The scheduled runs occur
-every 15 minutes in that window and nowhere else. Check the run logs; if
+The action runs on demand only. From the repository's **Actions** tab, select
+"Scrape Yahoo Fantasy Hockey" → **Run workflow**. The Connect IQ watch app can
+also start it: configure a fine-grained GitHub token in the app's **GitHub
+Actions token** setting, with **Actions: write** permission restricted to this
+repository, then hold the watch's middle-left **Up** button and confirm
+**Refresh?**. The token is stored on the watch and can be extracted; use a
+repository-limited token and do not commit or share it. Check the run logs; if
 `scrape.py` reports 0 players found, see Troubleshooting below.
 
 ## 6. (Optional) Backfill the season so far
