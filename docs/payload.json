@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T23:10:24.242240Z",
-  "updated_at_local": "2026-10-24T17:10-06:00",
+  "updated_at": "2026-10-24T23:30:50.560366Z",
+  "updated_at_local": "2026-10-24T17:30-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -26,21 +26,21 @@
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 20.4,
-      "season_points": 20.4,
+      "week_points": 21.4,
+      "season_points": 21.4,
       "today": {
         "started": true,
-        "points": 0.0,
+        "points": 1.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "vs SJ 1ST 19:38"
+        "game_info": "vs SJ 1ST 9:58"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 10:00 pm"
       }
     },
     {
@@ -110,13 +110,13 @@
       "season_points": 3.0,
       "today": {
         "started": false,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "saves": null,
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 4:00 pm"
+        "game_info": "vs NYR 1ST 10:35"
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TB 6:00 pm"
+        "game_info": "vs TB 9:00 pm"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 10:00 pm"
       }
     },
     {
@@ -232,41 +232,41 @@
     {
       "name": "Shayne Gostisbehere",
       "position": "D",
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "week_points": 0.9,
+      "season_points": 0.9,
       "today": {
         "started": true,
-        "points": 0.0,
+        "points": 0.9,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 1.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "D",
-        "game_info": "@ STL 1ST 19:35"
+        "game_info": "@ STL 1ST 9:45"
       }
     },
     {
       "name": "Tim Stutzle",
       "position": "F",
-      "week_points": 19.8,
-      "season_points": 19.8,
+      "week_points": 26.700000000000003,
+      "season_points": 26.700000000000003,
       "today": {
         "started": true,
-        "points": null,
+        "points": 6.9,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 1.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 1.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs NYR 4:00 pm"
+        "game_info": "vs NYR 1ST 10:35"
       }
     },
     {
@@ -283,17 +283,17 @@
       "season_points": 19.8,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM 4:00 pm"
+        "game_info": "@ EDM 1ST 10:54"
       }
     },
     {
@@ -303,17 +303,17 @@
       "season_points": 1.4,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TOR 4:00 pm"
+        "game_info": "vs TOR 1ST 10:54"
       }
     },
     {

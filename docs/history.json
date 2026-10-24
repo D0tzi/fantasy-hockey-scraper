@@ -991,17 +991,17 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 1ST 19:38",
-      "points": 0.0,
+      "game_info": "vs SJ 1ST 9:58",
+      "points": 1.0,
       "slot": "D",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Cole Caufield": {
@@ -1043,7 +1043,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 10:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1071,8 +1071,8 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 4:00 pm",
-      "points": null,
+      "game_info": "vs NYR 1ST 10:35",
+      "points": 0.0,
       "slot": "IR+",
       "started": false,
       "stats": {
@@ -1133,7 +1133,7 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "vs TB 6:00 pm",
+      "game_info": "vs TB 9:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1147,7 +1147,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 10:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1161,59 +1161,59 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 1ST 19:35",
-      "points": 0.0,
+      "game_info": "@ STL 1ST 9:45",
+      "points": 0.9,
       "slot": "D",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 1.0
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 4:00 pm",
-      "points": null,
+      "game_info": "vs NYR 1ST 10:35",
+      "points": 6.9,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 1.0
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 4:00 pm",
-      "points": null,
+      "game_info": "@ EDM 1ST 10:54",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 4:00 pm",
-      "points": null,
+      "game_info": "vs TOR 1ST 10:54",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     }
   }
