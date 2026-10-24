@@ -991,8 +991,8 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 6:00 pm",
-      "points": null,
+      "game_info": "vs SJ 1ST 19:38",
+      "points": 0.0,
       "slot": "D",
       "started": true,
       "stats": {
@@ -1019,8 +1019,8 @@
       }
     },
     "Connor Hellebuyck": {
-      "game_info": "vs LA 2:30 pm",
-      "points": null,
+      "game_info": "vs LA",
+      "points": 0.0,
       "slot": "G",
       "started": true,
       "stats": {
@@ -1029,21 +1029,21 @@
       }
     },
     "Cutter Gauthier": {
-      "game_info": "@ PHI 12:00 pm",
-      "points": null,
+      "game_info": "@ PHI",
+      "points": 8.6,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 1.0,
+        "blocks": 1.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 4.0
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ SEA 9:00 pm",
+      "game_info": "@ SEA 7:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1071,7 +1071,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 6:00 pm",
+      "game_info": "vs NYR 4:00 pm",
       "points": null,
       "slot": "IR+",
       "started": false,
@@ -1081,13 +1081,13 @@
       }
     },
     "Lukas Dostal": {
-      "game_info": "@ PHI 12:00 pm",
-      "points": null,
+      "game_info": "@ PHI",
+      "points": 9.8,
       "slot": "G",
       "started": true,
       "stats": {
-        "goals_against": null,
-        "saves": null
+        "goals_against": 4.0,
+        "saves": 28.0
       }
     },
     "Mathew Barzal": {
@@ -1133,7 +1133,7 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "vs TB 8:00 pm",
+      "game_info": "vs TB 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1147,7 +1147,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ SEA 9:00 pm",
+      "game_info": "@ SEA 7:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1161,8 +1161,8 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 6:00 pm",
-      "points": null,
+      "game_info": "@ STL 1ST 19:35",
+      "points": 0.0,
       "slot": "D",
       "started": true,
       "stats": {
@@ -1175,7 +1175,7 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 6:00 pm",
+      "game_info": "vs NYR 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1189,7 +1189,7 @@
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 6:00 pm",
+      "game_info": "@ EDM 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1203,7 +1203,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 6:00 pm",
+      "game_info": "vs TOR 4:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
