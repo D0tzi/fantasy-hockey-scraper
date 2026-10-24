@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T01:20:20.292167Z",
-  "updated_at_local": "2026-10-23T19:20-06:00",
+  "updated_at": "2026-10-24T06:08:52.283958Z",
+  "updated_at_local": "2026-10-24T00:08-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -40,7 +40,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": null
+        "game_info": "vs SJ 4:00 pm"
       }
     },
     {
@@ -49,18 +49,18 @@
       "week_points": 14.5,
       "season_points": 14.5,
       "today": {
-        "started": true,
-        "points": 1.8,
+        "started": false,
+        "points": null,
         "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 2.0,
-          "hits": 0.0,
-          "blocks": 0.0
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
         },
-        "slot": "F",
-        "game_info": "@ CHI 2ND 14:32"
+        "slot": "BN",
+        "game_info": null
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": null
+        "game_info": "@ SEA 7:00 pm"
       }
     },
     {
@@ -90,17 +90,17 @@
       "season_points": 9.3,
       "today": {
         "started": true,
-        "points": 0.0,
+        "points": null,
         "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 0.0,
-          "hits": 0.0,
-          "blocks": 0.0
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
         },
         "slot": "D",
-        "game_info": "@ CHI 2ND 14:32"
+        "game_info": null
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": null
+        "game_info": "vs NYR 4:00 pm"
       }
     },
     {
@@ -132,7 +132,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": null
+        "game_info": "@ PHI 10:00 am"
       }
     },
     {
@@ -161,18 +161,18 @@
       "week_points": 11.0,
       "season_points": 11.0,
       "today": {
-        "started": true,
-        "points": 4.0,
+        "started": false,
+        "points": null,
         "stats": {
-          "goals": 0.0,
-          "assists": 1.0,
-          "ppp": 0.0,
-          "shots": 0.0,
-          "hits": 0.0,
-          "blocks": 0.0
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
         },
-        "slot": "F",
-        "game_info": "vs TB 1ST 15:10"
+        "slot": "BN",
+        "game_info": null
       }
     },
     {
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": null
+        "game_info": "vs TB 6:00 pm"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": null
+        "game_info": "@ SEA 7:00 pm"
       }
     },
     {
@@ -235,7 +235,7 @@
       "week_points": 0.0,
       "season_points": 0.0,
       "today": {
-        "started": false,
+        "started": true,
         "points": null,
         "stats": {
           "goals": null,
@@ -245,8 +245,8 @@
           "hits": null,
           "blocks": null
         },
-        "slot": "BN",
-        "game_info": null
+        "slot": "D",
+        "game_info": "@ STL 4:00 pm"
       }
     },
     {
@@ -266,7 +266,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": null
+        "game_info": "vs NYR 4:00 pm"
       }
     },
     {
@@ -282,7 +282,7 @@
       "week_points": 19.8,
       "season_points": 19.8,
       "today": {
-        "started": false,
+        "started": true,
         "points": null,
         "stats": {
           "goals": null,
@@ -292,8 +292,8 @@
           "hits": null,
           "blocks": null
         },
-        "slot": "BN",
-        "game_info": null
+        "slot": "F",
+        "game_info": "@ EDM 4:00 pm"
       }
     },
     {
@@ -302,7 +302,7 @@
       "week_points": 1.4,
       "season_points": 1.4,
       "today": {
-        "started": false,
+        "started": true,
         "points": null,
         "stats": {
           "goals": null,
@@ -312,8 +312,8 @@
           "hits": null,
           "blocks": null
         },
-        "slot": "BN",
-        "game_info": null
+        "slot": "F",
+        "game_info": "vs TOR 4:00 pm"
       }
     },
     {
@@ -333,7 +333,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": null
+        "game_info": "@ PHI 10:00 am"
       }
     },
     {
@@ -342,7 +342,7 @@
       "week_points": 1.9,
       "season_points": 1.9,
       "today": {
-        "started": true,
+        "started": false,
         "points": null,
         "stats": {
           "goals": null,
@@ -352,7 +352,7 @@
           "hits": null,
           "blocks": null
         },
-        "slot": "D",
+        "slot": "BN",
         "game_info": null
       }
     },
@@ -369,7 +369,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": null
+        "game_info": "vs LA 12:30 pm"
       }
     }
   ]
