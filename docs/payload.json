@@ -1,268 +1,8 @@
 {
-  "updated_at": "2026-10-21T02:02:43.439766Z",
-  "updated_at_local": "2026-10-20T20:02-06:00",
+  "updated_at": "2026-10-24T08:44:56.471993Z",
+  "updated_at_local": "2026-10-24T02:44-06:00",
   "week_start": "2026-10-19",
   "players": [
-    {
-      "name": "William Nylander",
-      "position": "F",
-      "week_points": 13.8,
-      "season_points": 13.8,
-      "today": {
-        "started": true,
-        "points": 13.8,
-        "stats": {
-          "goals": 1.0,
-          "assists": 1.0,
-          "ppp": 1.0,
-          "shots": 2.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "@ CBJ"
-      }
-    },
-    {
-      "name": "Will Smith",
-      "position": "F",
-      "week_points": 6.9,
-      "season_points": 6.9,
-      "today": {
-        "started": true,
-        "points": 6.9,
-        "stats": {
-          "goals": 0.0,
-          "assists": 1.0,
-          "ppp": 1.0,
-          "shots": 1.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "@ MTL"
-      }
-    },
-    {
-      "name": "Nathan MacKinnon",
-      "position": "F",
-      "week_points": 7.0,
-      "season_points": 7.0,
-      "today": {
-        "started": true,
-        "points": 7.0,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 5.0,
-          "hits": 3.0,
-          "blocks": 1.0
-        },
-        "slot": "F",
-        "game_info": "@ NJ"
-      }
-    },
-    {
-      "name": "Joel Eriksson Ek",
-      "position": "F",
-      "week_points": 11.4,
-      "season_points": 11.4,
-      "today": {
-        "started": true,
-        "points": 11.4,
-        "stats": {
-          "goals": 1.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 6.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "@ EDM End 1ST"
-      }
-    },
-    {
-      "name": "Cole Caufield",
-      "position": "F",
-      "week_points": 12.7,
-      "season_points": 12.7,
-      "today": {
-        "started": true,
-        "points": 12.7,
-        "stats": {
-          "goals": 1.0,
-          "assists": 1.0,
-          "ppp": 0.0,
-          "shots": 3.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "vs SJ"
-      }
-    },
-    {
-      "name": "Zach Hyman",
-      "position": "F",
-      "week_points": 1.4,
-      "season_points": 1.4,
-      "today": {
-        "started": true,
-        "points": 1.4,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 1.0,
-          "hits": 1.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "vs MIN End 1ST"
-      }
-    },
-    {
-      "name": "Shayne Gostisbehere",
-      "position": "D",
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": true,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "D",
-        "game_info": "@ VAN 10:00 pm"
-      }
-    },
-    {
-      "name": "Quinn Hughes",
-      "position": "D",
-      "week_points": 1.8,
-      "season_points": 1.8,
-      "today": {
-        "started": true,
-        "points": 1.8,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 2.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "D",
-        "game_info": "@ EDM End 1ST"
-      }
-    },
-    {
-      "name": "Charlie McAvoy",
-      "position": "D",
-      "week_points": 2.0,
-      "season_points": 2.0,
-      "today": {
-        "started": true,
-        "points": 2.0,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 0.0,
-          "hits": 0.0,
-          "blocks": 2.0
-        },
-        "slot": "D",
-        "game_info": "@ DAL 3RD 19:10"
-      }
-    },
-    {
-      "name": "Lane Hutson",
-      "position": "D",
-      "week_points": 9.3,
-      "season_points": 9.3,
-      "today": {
-        "started": true,
-        "points": 9.3,
-        "stats": {
-          "goals": 0.0,
-          "assists": 1.0,
-          "ppp": 0.0,
-          "shots": 2.0,
-          "hits": 1.0,
-          "blocks": 3.0
-        },
-        "slot": "D",
-        "game_info": "vs SJ"
-      }
-    },
-    {
-      "name": "Sam Reinhart",
-      "position": "F",
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": false,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "BN",
-        "game_info": null
-      }
-    },
-    {
-      "name": "Nick Schmaltz",
-      "position": null,
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": false,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "BN",
-        "game_info": null
-      }
-    },
-    {
-      "name": "Tim Stutzle",
-      "position": "F",
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": false,
-        "points": null,
-        "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
-        },
-        "slot": "BN",
-        "game_info": null
-      }
-    },
     {
       "name": "Aleksander Barkov",
       "position": null,
@@ -284,13 +24,13 @@
       }
     },
     {
-      "name": "Mathew Barzal",
-      "position": null,
-      "week_points": 0.0,
-      "season_points": 0.0,
+      "name": "Charlie McAvoy",
+      "position": "D",
+      "week_points": 20.4,
+      "season_points": 20.4,
       "today": {
-        "started": false,
-        "points": 0.0,
+        "started": true,
+        "points": null,
         "stats": {
           "goals": null,
           "assists": null,
@@ -299,8 +39,84 @@
           "hits": null,
           "blocks": null
         },
-        "slot": "IR",
-        "game_info": "vs ANA"
+        "slot": "D",
+        "game_info": "vs SJ 6:00 pm"
+      }
+    },
+    {
+      "name": "Cole Caufield",
+      "position": "F",
+      "week_points": 14.5,
+      "season_points": 14.5,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Joel Eriksson Ek",
+      "position": "F",
+      "week_points": 11.4,
+      "season_points": 11.4,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "@ SEA 9:00 pm"
+      }
+    },
+    {
+      "name": "Lane Hutson",
+      "position": "D",
+      "week_points": 9.3,
+      "season_points": 9.3,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Linus Ullmark",
+      "position": "G",
+      "week_points": 3.0,
+      "season_points": 3.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "saves": null,
+          "goals_against": null
+        },
+        "slot": "IR+",
+        "game_info": "vs NYR 6:00 pm"
       }
     },
     {
@@ -310,17 +126,238 @@
       "season_points": 4.2,
       "today": {
         "started": true,
-        "points": 4.2,
+        "points": null,
         "stats": {
-          "saves": 22.0,
-          "goals_against": 3.0
+          "saves": null,
+          "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ NYI"
+        "game_info": "@ PHI 12:00 pm"
+      }
+    },
+    {
+      "name": "Mathew Barzal",
+      "position": null,
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "IR",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Nathan MacKinnon",
+      "position": "F",
+      "week_points": 11.0,
+      "season_points": 11.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Nick Schmaltz",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "vs TB 8:00 pm"
       }
     },
     {
       "name": "Pyotr Kochetkov",
+      "position": "G",
+      "week_points": -2.4,
+      "season_points": -2.4,
+      "today": null
+    },
+    {
+      "name": "Quinn Hughes",
+      "position": "D",
+      "week_points": 2.7,
+      "season_points": 2.7,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "D",
+        "game_info": "@ SEA 9:00 pm"
+      }
+    },
+    {
+      "name": "Sam Reinhart",
+      "position": "F",
+      "week_points": 4.6,
+      "season_points": 4.6,
+      "today": null
+    },
+    {
+      "name": "Shayne Gostisbehere",
+      "position": "D",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "D",
+        "game_info": "@ STL 6:00 pm"
+      }
+    },
+    {
+      "name": "Tim Stutzle",
+      "position": "F",
+      "week_points": 19.8,
+      "season_points": 19.8,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "vs NYR 6:00 pm"
+      }
+    },
+    {
+      "name": "Will Smith",
+      "position": "F",
+      "week_points": 6.9,
+      "season_points": 6.9,
+      "today": null
+    },
+    {
+      "name": "William Nylander",
+      "position": "F",
+      "week_points": 19.8,
+      "season_points": 19.8,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "@ EDM 6:00 pm"
+      }
+    },
+    {
+      "name": "Zach Hyman",
+      "position": "F",
+      "week_points": 1.4,
+      "season_points": 1.4,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "vs TOR 6:00 pm"
+      }
+    },
+    {
+      "name": "Cutter Gauthier",
+      "position": "F",
+      "week_points": 1.4,
+      "season_points": 1.4,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "@ PHI 12:00 pm"
+      }
+    },
+    {
+      "name": "Neal Pionk",
+      "position": "D",
+      "week_points": 1.9,
+      "season_points": 1.9,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "BN",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Connor Hellebuyck",
       "position": "G",
       "week_points": 0.0,
       "season_points": 0.0,
@@ -332,23 +369,7 @@
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ VAN 10:00 pm"
-      }
-    },
-    {
-      "name": "Linus Ullmark",
-      "position": "G",
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": false,
-        "points": null,
-        "stats": {
-          "saves": null,
-          "goals_against": null
-        },
-        "slot": "BN",
-        "game_info": null
+        "game_info": "vs LA 2:30 pm"
       }
     }
   ]

@@ -15,15 +15,15 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "@ DAL 3RD 19:10",
-      "points": 2.0,
+      "game_info": "@ DAL",
+      "points": 5.0,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 0.0,
-        "blocks": 2.0,
+        "blocks": 4.0,
         "goals": 0.0,
-        "hits": 0.0,
+        "hits": 2.0,
         "ppp": 0.0,
         "shots": 0.0
       }
@@ -43,7 +43,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ EDM End 1ST",
+      "game_info": "@ EDM End 2ND",
       "points": 11.4,
       "slot": "F",
       "started": true,
@@ -133,18 +133,18 @@
       }
     },
     "Pyotr Kochetkov": {
-      "game_info": "@ VAN 10:00 pm",
-      "points": null,
+      "game_info": "@ VAN End 1ST",
+      "points": -2.4,
       "slot": "G",
       "started": true,
       "stats": {
-        "goals_against": null,
-        "saves": null
+        "goals_against": 2.0,
+        "saves": 6.0
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ EDM End 1ST",
-      "points": 1.8,
+      "game_info": "@ EDM End 2ND",
+      "points": 2.7,
       "slot": "D",
       "started": true,
       "stats": {
@@ -153,7 +153,7 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 2.0
+        "shots": 3.0
       }
     },
     "Sam Reinhart": {
@@ -171,17 +171,17 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ VAN 10:00 pm",
-      "points": null,
+      "game_info": "@ VAN End 1ST",
+      "points": 0.0,
       "slot": "D",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Tim Stutzle": {
@@ -227,7 +227,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs MIN End 1ST",
+      "game_info": "vs MIN End 2ND",
       "points": 1.4,
       "slot": "F",
       "started": true,
@@ -243,8 +243,8 @@
   },
   "2026-10-21": {
     "Aleksander Barkov": {
-      "game_info": "@ OTT",
-      "points": null,
+      "game_info": "@ OTT 2ND 8:17",
+      "points": 0.0,
       "slot": "IR",
       "started": false,
       "stats": {
@@ -284,6 +284,20 @@
         "shots": null
       }
     },
+    "Cutter Gauthier": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
     "Joel Eriksson Ek": {
       "game_info": null,
       "points": null,
@@ -313,20 +327,20 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs FLA",
-      "points": null,
+      "game_info": "vs FLA 2ND 8:17",
+      "points": 3.0,
       "slot": "G",
       "started": true,
       "stats": {
-        "goals_against": null,
-        "saves": null
+        "goals_against": 1.0,
+        "saves": 10.0
       }
     },
     "Lukas Dostal": {
       "game_info": null,
       "points": null,
-      "slot": "BN",
-      "started": false,
+      "slot": "G",
+      "started": true,
       "stats": {
         "goals_against": null,
         "saves": null
@@ -360,7 +374,7 @@
         "shots": null
       }
     },
-    "Nick Schmaltz": {
+    "Neal Pionk": {
       "game_info": null,
       "points": null,
       "slot": "BN",
@@ -374,14 +388,18 @@
         "shots": null
       }
     },
-    "Pyotr Kochetkov": {
+    "Nick Schmaltz": {
       "game_info": null,
       "points": null,
-      "slot": "G",
-      "started": true,
+      "slot": "BN",
+      "started": false,
       "stats": {
-        "goals_against": null,
-        "saves": null
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
       }
     },
     "Quinn Hughes": {
@@ -399,17 +417,17 @@
       }
     },
     "Sam Reinhart": {
-      "game_info": "@ OTT",
-      "points": null,
+      "game_info": "@ OTT 2ND 8:17",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
-        "assists": null,
-        "blocks": null,
-        "goals": null,
-        "hits": null,
-        "ppp": null,
-        "shots": null
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
       }
     },
     "Shayne Gostisbehere": {
@@ -427,7 +445,197 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs FLA",
+      "game_info": "vs FLA 2ND 8:17",
+      "points": 9.9,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 1.0,
+        "hits": 0.0,
+        "ppp": 1.0,
+        "shots": 1.0
+      }
+    },
+    "William Nylander": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Zach Hyman": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    }
+  },
+  "2026-10-22": {
+    "Aleksander Barkov": {
+      "game_info": "@ PIT 3RD 15:41",
+      "points": 0.0,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Charlie McAvoy": {
+      "game_info": "vs NSH 3RD 15:00",
+      "points": 15.4,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": 3.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 1.0,
+        "ppp": 1.0,
+        "shots": 1.0
+      }
+    },
+    "Cole Caufield": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Cutter Gauthier": {
+      "game_info": "@ NJ 3RD 11:40",
+      "points": 1.4,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 1.0,
+        "ppp": 0.0,
+        "shots": 1.0
+      }
+    },
+    "Joel Eriksson Ek": {
+      "game_info": "@ CGY 1ST 19:27",
+      "points": 0.0,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Lane Hutson": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Linus Ullmark": {
+      "game_info": "vs SJ 3RD 18:02",
+      "points": 0.0,
+      "slot": "IR+",
+      "started": false,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Lukas Dostal": {
+      "game_info": "@ NJ 3RD 11:40",
+      "points": 0.0,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Mathew Barzal": {
+      "game_info": "vs LA 2ND 5:54",
+      "points": 0.0,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Nathan MacKinnon": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Neal Pionk": {
+      "game_info": "@ DAL 2ND 16:59",
+      "points": 1.9,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 1.0
+      }
+    },
+    "Nick Schmaltz": {
+      "game_info": "@ SEA 10:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -440,11 +648,295 @@
         "shots": null
       }
     },
-    "Will Smith": {
+    "Quinn Hughes": {
+      "game_info": "@ CGY 1ST 19:27",
+      "points": 0.0,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Sam Reinhart": {
+      "game_info": "@ PIT 3RD 15:41",
+      "points": 4.6,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 2.0,
+        "ppp": 0.0,
+        "shots": 4.0
+      }
+    },
+    "Shayne Gostisbehere": {
+      "game_info": "@ EDM 1ST 20:00",
+      "points": 0.0,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Tim Stutzle": {
+      "game_info": "vs SJ 3RD 18:02",
+      "points": 9.9,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 1.0,
+        "goals": 1.0,
+        "hits": 4.0,
+        "ppp": 0.0,
+        "shots": 1.0
+      }
+    },
+    "William Nylander": {
+      "game_info": "vs NYR 3RD 19:10",
+      "points": 6.0,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 1.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 1.0,
+        "shots": 0.0
+      }
+    },
+    "Zach Hyman": {
+      "game_info": "vs CAR 1ST 20:00",
+      "points": 0.0,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    }
+  },
+  "2026-10-23": {
+    "Aleksander Barkov": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Charlie McAvoy": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Cole Caufield": {
+      "game_info": "@ CHI 2ND 14:32",
+      "points": 1.8,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 2.0
+      }
+    },
+    "Connor Hellebuyck": {
+      "game_info": null,
+      "points": null,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Cutter Gauthier": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Joel Eriksson Ek": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Lane Hutson": {
+      "game_info": "@ CHI 2ND 14:32",
+      "points": 0.0,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": 0.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
+      }
+    },
+    "Linus Ullmark": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR+",
+      "started": false,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Lukas Dostal": {
+      "game_info": null,
+      "points": null,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Mathew Barzal": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Nathan MacKinnon": {
+      "game_info": "vs TB 1ST 15:10",
+      "points": 4.0,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": 1.0,
+        "blocks": 0.0,
+        "goals": 0.0,
+        "hits": 0.0,
+        "ppp": 0.0,
+        "shots": 0.0
+      }
+    },
+    "Neal Pionk": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Nick Schmaltz": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Quinn Hughes": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Shayne Gostisbehere": {
       "game_info": null,
       "points": null,
       "slot": "BN",
       "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Tim Stutzle": {
+      "game_info": null,
+      "points": null,
+      "slot": "F",
+      "started": true,
       "stats": {
         "assists": null,
         "blocks": null,
@@ -470,6 +962,248 @@
     },
     "Zach Hyman": {
       "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    }
+  },
+  "2026-10-24": {
+    "Aleksander Barkov": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Charlie McAvoy": {
+      "game_info": "vs SJ 6:00 pm",
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Cole Caufield": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Connor Hellebuyck": {
+      "game_info": "vs LA 2:30 pm",
+      "points": null,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Cutter Gauthier": {
+      "game_info": "@ PHI 12:00 pm",
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Joel Eriksson Ek": {
+      "game_info": "@ SEA 9:00 pm",
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Lane Hutson": {
+      "game_info": null,
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Linus Ullmark": {
+      "game_info": "vs NYR 6:00 pm",
+      "points": null,
+      "slot": "IR+",
+      "started": false,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Lukas Dostal": {
+      "game_info": "@ PHI 12:00 pm",
+      "points": null,
+      "slot": "G",
+      "started": true,
+      "stats": {
+        "goals_against": null,
+        "saves": null
+      }
+    },
+    "Mathew Barzal": {
+      "game_info": null,
+      "points": null,
+      "slot": "IR",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Nathan MacKinnon": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Neal Pionk": {
+      "game_info": null,
+      "points": null,
+      "slot": "BN",
+      "started": false,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Nick Schmaltz": {
+      "game_info": "vs TB 8:00 pm",
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Quinn Hughes": {
+      "game_info": "@ SEA 9:00 pm",
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Shayne Gostisbehere": {
+      "game_info": "@ STL 6:00 pm",
+      "points": null,
+      "slot": "D",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Tim Stutzle": {
+      "game_info": "vs NYR 6:00 pm",
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "William Nylander": {
+      "game_info": "@ EDM 6:00 pm",
+      "points": null,
+      "slot": "F",
+      "started": true,
+      "stats": {
+        "assists": null,
+        "blocks": null,
+        "goals": null,
+        "hits": null,
+        "ppp": null,
+        "shots": null
+      }
+    },
+    "Zach Hyman": {
+      "game_info": "vs TOR 6:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
