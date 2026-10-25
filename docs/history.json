@@ -991,7 +991,7 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 1ST 1:04",
+      "game_info": "vs SJ 2ND 10:31",
       "points": 1.9,
       "slot": "D",
       "started": true,
@@ -1071,7 +1071,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 1ST 0:15",
+      "game_info": "vs NYR 2ND 12:33",
       "points": 0.0,
       "slot": "IR+",
       "started": false,
@@ -1161,8 +1161,8 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 1ST 2:41",
-      "points": 0.9,
+      "game_info": "@ STL 2ND 13:52",
+      "points": 1.8,
       "slot": "D",
       "started": true,
       "stats": {
@@ -1171,25 +1171,25 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 1.0
+        "shots": 2.0
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 1ST 0:15",
-      "points": 7.9,
+      "game_info": "vs NYR 2ND 12:33",
+      "points": 8.4,
       "slot": "F",
       "started": true,
       "stats": {
         "assists": 0.0,
         "blocks": 0.0,
         "goals": 1.0,
-        "hits": 2.0,
+        "hits": 3.0,
         "ppp": 0.0,
         "shots": 1.0
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 1ST 2:28",
+      "game_info": "@ EDM 2ND 14:31",
       "points": 0.5,
       "slot": "F",
       "started": true,
@@ -1203,8 +1203,8 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 1ST 2:28",
-      "points": 0.0,
+      "game_info": "vs TOR 2ND 14:31",
+      "points": 0.9,
       "slot": "F",
       "started": true,
       "stats": {
@@ -1213,7 +1213,7 @@
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
-        "shots": 0.0
+        "shots": 1.0
       }
     }
   }
