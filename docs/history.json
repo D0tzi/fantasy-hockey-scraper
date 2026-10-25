@@ -991,15 +991,15 @@
       }
     },
     "Charlie McAvoy": {
-      "game_info": "vs SJ 2ND 10:31",
-      "points": 1.9,
+      "game_info": "vs SJ 3RD 16:47",
+      "points": 3.4,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 0.0,
-        "blocks": 1.0,
+        "blocks": 2.0,
         "goals": 0.0,
-        "hits": 0.0,
+        "hits": 1.0,
         "ppp": 0.0,
         "shots": 1.0
       }
@@ -1043,7 +1043,7 @@
       }
     },
     "Joel Eriksson Ek": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 9:00 pm",
       "points": null,
       "slot": "F",
       "started": true,
@@ -1071,7 +1071,7 @@
       }
     },
     "Linus Ullmark": {
-      "game_info": "vs NYR 2ND 12:33",
+      "game_info": "vs NYR 3RD 17:57",
       "points": 0.0,
       "slot": "IR+",
       "started": false,
@@ -1133,8 +1133,8 @@
       }
     },
     "Nick Schmaltz": {
-      "game_info": "vs TB 6:00 pm",
-      "points": null,
+      "game_info": "vs TB 1ST 20:00",
+      "points": 0.0,
       "slot": "F",
       "started": true,
       "stats": {
@@ -1147,7 +1147,7 @@
       }
     },
     "Quinn Hughes": {
-      "game_info": "@ SEA 7:00 pm",
+      "game_info": "@ SEA 9:00 pm",
       "points": null,
       "slot": "D",
       "started": true,
@@ -1161,13 +1161,13 @@
       }
     },
     "Shayne Gostisbehere": {
-      "game_info": "@ STL 2ND 13:52",
-      "points": 1.8,
+      "game_info": "@ STL 3RD 18:14",
+      "points": 2.8,
       "slot": "D",
       "started": true,
       "stats": {
         "assists": 0.0,
-        "blocks": 0.0,
+        "blocks": 1.0,
         "goals": 0.0,
         "hits": 0.0,
         "ppp": 0.0,
@@ -1175,8 +1175,8 @@
       }
     },
     "Tim Stutzle": {
-      "game_info": "vs NYR 2ND 12:33",
-      "points": 8.4,
+      "game_info": "vs NYR 3RD 17:57",
+      "points": 9.3,
       "slot": "F",
       "started": true,
       "stats": {
@@ -1185,11 +1185,11 @@
         "goals": 1.0,
         "hits": 3.0,
         "ppp": 0.0,
-        "shots": 1.0
+        "shots": 2.0
       }
     },
     "William Nylander": {
-      "game_info": "@ EDM 2ND 14:31",
+      "game_info": "@ EDM End 2ND",
       "points": 0.5,
       "slot": "F",
       "started": true,
@@ -1203,7 +1203,7 @@
       }
     },
     "Zach Hyman": {
-      "game_info": "vs TOR 2ND 14:31",
+      "game_info": "vs TOR End 2ND",
       "points": 0.9,
       "slot": "F",
       "started": true,

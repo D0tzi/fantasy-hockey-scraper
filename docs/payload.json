@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T00:20:49.745522Z",
-  "updated_at_local": "2026-10-24T18:20-06:00",
+  "updated_at": "2026-10-25T01:07:54.976979Z",
+  "updated_at_local": "2026-10-24T19:07-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -26,21 +26,21 @@
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 22.299999999999997,
-      "season_points": 22.299999999999997,
+      "week_points": 23.799999999999997,
+      "season_points": 23.799999999999997,
       "today": {
         "started": true,
-        "points": 1.9,
+        "points": 3.4,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 1.0,
-          "hits": 0.0,
-          "blocks": 1.0
+          "hits": 1.0,
+          "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "vs SJ 2ND 10:31"
+        "game_info": "vs SJ 3RD 16:47"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 9:00 pm"
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 2ND 12:33"
+        "game_info": "vs NYR 3RD 17:57"
       }
     },
     {
@@ -182,7 +182,7 @@
       "season_points": 0.0,
       "today": {
         "started": true,
-        "points": null,
+        "points": 0.0,
         "stats": {
           "goals": null,
           "assists": null,
@@ -192,7 +192,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "vs TB 6:00 pm"
+        "game_info": "vs TB 1ST 20:00"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 7:00 pm"
+        "game_info": "@ SEA 9:00 pm"
       }
     },
     {
@@ -232,41 +232,41 @@
     {
       "name": "Shayne Gostisbehere",
       "position": "D",
-      "week_points": 1.8,
-      "season_points": 1.8,
+      "week_points": 2.8,
+      "season_points": 2.8,
       "today": {
         "started": true,
-        "points": 1.8,
+        "points": 2.8,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 2.0,
           "hits": 0.0,
-          "blocks": 0.0
+          "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "@ STL 2ND 13:52"
+        "game_info": "@ STL 3RD 18:14"
       }
     },
     {
       "name": "Tim Stutzle",
       "position": "F",
-      "week_points": 28.200000000000003,
-      "season_points": 28.200000000000003,
+      "week_points": 29.1,
+      "season_points": 29.1,
       "today": {
         "started": true,
-        "points": 8.4,
+        "points": 9.3,
         "stats": {
           "goals": 1.0,
           "assists": 0.0,
           "ppp": 0.0,
-          "shots": 1.0,
+          "shots": 2.0,
           "hits": 3.0,
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs NYR 2ND 12:33"
+        "game_info": "vs NYR 3RD 17:57"
       }
     },
     {
@@ -293,7 +293,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM 2ND 14:31"
+        "game_info": "@ EDM End 2ND"
       }
     },
     {
@@ -313,7 +313,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TOR 2ND 14:31"
+        "game_info": "vs TOR End 2ND"
       }
     },
     {
