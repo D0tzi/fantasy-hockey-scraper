@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T01:07:54.976979Z",
-  "updated_at_local": "2026-10-24T19:07-06:00",
+  "updated_at": "2026-10-25T01:45:28.111440Z",
+  "updated_at_local": "2026-10-24T19:45-06:00",
   "week_start": "2026-10-19",
   "players": [
     {
@@ -40,7 +40,7 @@
           "blocks": 2.0
         },
         "slot": "D",
-        "game_info": "vs SJ 3RD 16:47"
+        "game_info": "vs SJ 3RD 0:28"
       }
     },
     {
@@ -80,7 +80,7 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 9:00 pm"
+        "game_info": "@ SEA 10:00 pm"
       }
     },
     {
@@ -116,7 +116,7 @@
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 3RD 17:57"
+        "game_info": "vs NYR 3RD 0:12"
       }
     },
     {
@@ -184,15 +184,15 @@
         "started": true,
         "points": 0.0,
         "stats": {
-          "goals": null,
-          "assists": null,
-          "ppp": null,
-          "shots": null,
-          "hits": null,
-          "blocks": null
+          "goals": 0.0,
+          "assists": 0.0,
+          "ppp": 0.0,
+          "shots": 0.0,
+          "hits": 0.0,
+          "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TB 1ST 20:00"
+        "game_info": "vs TB 1ST 4:47"
       }
     },
     {
@@ -219,7 +219,7 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 9:00 pm"
+        "game_info": "@ SEA 10:00 pm"
       }
     },
     {
@@ -232,21 +232,21 @@
     {
       "name": "Shayne Gostisbehere",
       "position": "D",
-      "week_points": 2.8,
-      "season_points": 2.8,
+      "week_points": 3.3,
+      "season_points": 3.3,
       "today": {
         "started": true,
-        "points": 2.8,
+        "points": 3.3,
         "stats": {
           "goals": 0.0,
           "assists": 0.0,
           "ppp": 0.0,
           "shots": 2.0,
-          "hits": 0.0,
+          "hits": 1.0,
           "blocks": 1.0
         },
         "slot": "D",
-        "game_info": "@ STL 3RD 18:14"
+        "game_info": "@ STL"
       }
     },
     {
@@ -266,7 +266,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs NYR 3RD 17:57"
+        "game_info": "vs NYR 3RD 0:12"
       }
     },
     {
@@ -279,21 +279,21 @@
     {
       "name": "William Nylander",
       "position": "F",
-      "week_points": 20.3,
-      "season_points": 20.3,
+      "week_points": 37.0,
+      "season_points": 37.0,
       "today": {
         "started": true,
-        "points": 0.5,
+        "points": 17.2,
         "stats": {
-          "goals": 0.0,
+          "goals": 2.0,
           "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 0.0,
+          "ppp": 1.0,
+          "shots": 3.0,
           "hits": 1.0,
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "@ EDM End 2ND"
+        "game_info": "@ EDM 3RD 1:22"
       }
     },
     {
@@ -313,7 +313,7 @@
           "blocks": 0.0
         },
         "slot": "F",
-        "game_info": "vs TOR End 2ND"
+        "game_info": "vs TOR 3RD 1:22"
       }
     },
     {
