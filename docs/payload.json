@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T01:45:28.111440Z",
-  "updated_at_local": "2026-10-24T19:45-06:00",
-  "week_start": "2026-10-19",
+  "updated_at": "2026-10-26T14:31:56.938690Z",
+  "updated_at_local": "2026-10-26T08:31-06:00",
+  "week_start": "2026-10-26",
   "players": [
     {
       "name": "Aleksander Barkov",
@@ -26,28 +26,8 @@
     {
       "name": "Charlie McAvoy",
       "position": "D",
-      "week_points": 23.799999999999997,
+      "week_points": 0.0,
       "season_points": 23.799999999999997,
-      "today": {
-        "started": true,
-        "points": 3.4,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 1.0,
-          "hits": 1.0,
-          "blocks": 2.0
-        },
-        "slot": "D",
-        "game_info": "vs SJ 3RD 0:28"
-      }
-    },
-    {
-      "name": "Cole Caufield",
-      "position": "F",
-      "week_points": 14.5,
-      "season_points": 14.5,
       "today": {
         "started": false,
         "points": null,
@@ -64,9 +44,29 @@
       }
     },
     {
+      "name": "Cole Caufield",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 14.5,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
       "name": "Joel Eriksson Ek",
       "position": "F",
-      "week_points": 11.4,
+      "week_points": 0.0,
       "season_points": 11.4,
       "today": {
         "started": true,
@@ -80,13 +80,13 @@
           "blocks": null
         },
         "slot": "F",
-        "game_info": "@ SEA 10:00 pm"
+        "game_info": null
       }
     },
     {
       "name": "Lane Hutson",
       "position": "D",
-      "week_points": 9.3,
+      "week_points": 0.0,
       "season_points": 9.3,
       "today": {
         "started": true,
@@ -106,33 +106,33 @@
     {
       "name": "Linus Ullmark",
       "position": "G",
-      "week_points": 3.0,
+      "week_points": 0.0,
       "season_points": 3.0,
       "today": {
         "started": false,
-        "points": 0.0,
+        "points": null,
         "stats": {
           "saves": null,
           "goals_against": null
         },
         "slot": "IR+",
-        "game_info": "vs NYR 3RD 0:12"
+        "game_info": null
       }
     },
     {
       "name": "Lukas Dostal",
       "position": "G",
-      "week_points": 14.0,
+      "week_points": 0.0,
       "season_points": 14.0,
       "today": {
         "started": true,
-        "points": 9.8,
+        "points": null,
         "stats": {
-          "saves": 28.0,
-          "goals_against": 4.0
+          "saves": null,
+          "goals_against": null
         },
         "slot": "G",
-        "game_info": "@ PHI"
+        "game_info": null
       }
     },
     {
@@ -158,8 +158,28 @@
     {
       "name": "Nathan MacKinnon",
       "position": "F",
-      "week_points": 11.0,
+      "week_points": 0.0,
       "season_points": 11.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Nick Schmaltz",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
       "today": {
         "started": false,
         "points": null,
@@ -176,36 +196,16 @@
       }
     },
     {
-      "name": "Nick Schmaltz",
-      "position": "F",
-      "week_points": 0.0,
-      "season_points": 0.0,
-      "today": {
-        "started": true,
-        "points": 0.0,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 0.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "vs TB 1ST 4:47"
-      }
-    },
-    {
       "name": "Pyotr Kochetkov",
       "position": "G",
-      "week_points": -2.4,
+      "week_points": 0.0,
       "season_points": -2.4,
       "today": null
     },
     {
       "name": "Quinn Hughes",
       "position": "D",
-      "week_points": 2.7,
+      "week_points": 0.0,
       "season_points": 2.7,
       "today": {
         "started": true,
@@ -219,128 +219,41 @@
           "blocks": null
         },
         "slot": "D",
-        "game_info": "@ SEA 10:00 pm"
+        "game_info": null
       }
     },
     {
       "name": "Sam Reinhart",
       "position": "F",
-      "week_points": 4.6,
+      "week_points": 0.0,
       "season_points": 4.6,
       "today": null
     },
     {
       "name": "Shayne Gostisbehere",
       "position": "D",
-      "week_points": 3.3,
+      "week_points": 0.0,
       "season_points": 3.3,
       "today": {
         "started": true,
-        "points": 3.3,
+        "points": null,
         "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 2.0,
-          "hits": 1.0,
-          "blocks": 1.0
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
         },
         "slot": "D",
-        "game_info": "@ STL"
+        "game_info": null
       }
     },
     {
       "name": "Tim Stutzle",
       "position": "F",
-      "week_points": 29.1,
+      "week_points": 0.0,
       "season_points": 29.1,
-      "today": {
-        "started": true,
-        "points": 9.3,
-        "stats": {
-          "goals": 1.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 2.0,
-          "hits": 3.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "vs NYR 3RD 0:12"
-      }
-    },
-    {
-      "name": "Will Smith",
-      "position": "F",
-      "week_points": 6.9,
-      "season_points": 6.9,
-      "today": null
-    },
-    {
-      "name": "William Nylander",
-      "position": "F",
-      "week_points": 37.0,
-      "season_points": 37.0,
-      "today": {
-        "started": true,
-        "points": 17.2,
-        "stats": {
-          "goals": 2.0,
-          "assists": 0.0,
-          "ppp": 1.0,
-          "shots": 3.0,
-          "hits": 1.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "@ EDM 3RD 1:22"
-      }
-    },
-    {
-      "name": "Zach Hyman",
-      "position": "F",
-      "week_points": 2.3,
-      "season_points": 2.3,
-      "today": {
-        "started": true,
-        "points": 0.9,
-        "stats": {
-          "goals": 0.0,
-          "assists": 0.0,
-          "ppp": 0.0,
-          "shots": 1.0,
-          "hits": 0.0,
-          "blocks": 0.0
-        },
-        "slot": "F",
-        "game_info": "vs TOR 3RD 1:22"
-      }
-    },
-    {
-      "name": "Cutter Gauthier",
-      "position": "F",
-      "week_points": 10.0,
-      "season_points": 10.0,
-      "today": {
-        "started": true,
-        "points": 8.6,
-        "stats": {
-          "goals": 0.0,
-          "assists": 1.0,
-          "ppp": 0.0,
-          "shots": 4.0,
-          "hits": 0.0,
-          "blocks": 1.0
-        },
-        "slot": "F",
-        "game_info": "@ PHI"
-      }
-    },
-    {
-      "name": "Neal Pionk",
-      "position": "D",
-      "week_points": 1.9,
-      "season_points": 1.9,
       "today": {
         "started": false,
         "points": null,
@@ -357,19 +270,133 @@
       }
     },
     {
+      "name": "Will Smith",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 6.9,
+      "today": null
+    },
+    {
+      "name": "William Nylander",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 37.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "@ CGY 6:30 pm"
+      }
+    },
+    {
+      "name": "Zach Hyman",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 2.3,
+      "today": null
+    },
+    {
+      "name": "Cutter Gauthier",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 10.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": null
+      }
+    },
+    {
+      "name": "Neal Pionk",
+      "position": "D",
+      "week_points": 0.0,
+      "season_points": 1.9,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "D",
+        "game_info": null
+      }
+    },
+    {
       "name": "Connor Hellebuyck",
       "position": "G",
       "week_points": 0.0,
       "season_points": 0.0,
       "today": {
         "started": true,
-        "points": 0.0,
+        "points": null,
         "stats": {
           "saves": null,
           "goals_against": null
         },
         "slot": "G",
-        "game_info": "vs LA"
+        "game_info": null
+      }
+    },
+    {
+      "name": "Artemi Panarin",
+      "position": "F",
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": true,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "F",
+        "game_info": "@ NYR 5:00 pm"
+      }
+    },
+    {
+      "name": "Drake Batherson",
+      "position": null,
+      "week_points": 0.0,
+      "season_points": 0.0,
+      "today": {
+        "started": false,
+        "points": null,
+        "stats": {
+          "goals": null,
+          "assists": null,
+          "ppp": null,
+          "shots": null,
+          "hits": null,
+          "blocks": null
+        },
+        "slot": "BN",
+        "game_info": null
       }
     }
   ]
